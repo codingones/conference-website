@@ -1,18 +1,5 @@
 import { MetadataRoute } from 'next';
-import { config } from 'dotenv';
-
-config();
-
-const hostnameFromEnv = (): string => process.env['HOSTNAME'] ?? 'localhost';
-
-const portFromEnv = (): number | undefined => (process.env['PORT'] ? +process.env['PORT'] : undefined);
-
-const isSecureProtocolFromEnv = (): boolean => process.env['PROTOCOL'] === 'https';
-
-const protocol = (isSecure: boolean): string => `http${isSecure ? 's' : ''}`;
-
-export const sitemap = (hostname: string, port?: number, isSecure: boolean = true): string =>
-  port ? `${protocol(isSecure)}://${hostname}:${port}/sitemap.xml` : `${protocol(isSecure)}://${hostname}/sitemap.xml`;
+import { urlFromEnv } from '@/utils';
 
 const robots = (): MetadataRoute.Robots => ({
   rules: {
@@ -20,7 +7,7 @@ const robots = (): MetadataRoute.Robots => ({
     allow: '/',
     disallow: '/private/'
   },
-  sitemap: sitemap(hostnameFromEnv(), portFromEnv(), isSecureProtocolFromEnv())
+  sitemap: `${urlFromEnv()}/sitemap.xml`
 });
 
 export default robots;
