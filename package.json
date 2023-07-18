@@ -39,6 +39,7 @@
     "stylelint": "^15.10.1",
     "stylelint-config-standard-scss": "^10.0.0",
     "stylelint-scss": "^5.0.1",
+    "ts-json-schema-generator": "^1.2.0",
     "vitest": "^0.33.0"
   }
 }

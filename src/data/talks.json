@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "building-scalable-web-apps",
+    "title": "Building Scalable Web Applications with Microservices Architecture",
+    "speaker": "John Doe",
+    "description": "Learn how to design and develop highly scalable web applications using microservices architecture. Discover best practices, challenges, and tools for building distributed systems.",
+    "date": "2023-08-15T14:30:00Z",
+    "duration": 45,
+    "room": "Hall A",
+    "track": "Web Development",
+    "language": "English",
+    "slidesLink": "https://example.com/talks/building-scalable-web-apps-slides",
+    "videoLink": "https://example.com/talks/building-scalable-web-apps-video",
+    "tags": ["Microservices", "Scalability", "Distributed Systems"]
+  },
+  {
+    "slug": "ai-and-ethical-considerations",
+    "title": "AI and Ethical Considerations: Striking the Right Balance",
+    "speaker": "Jane Smith",
+    "description": "Explore the ethical challenges associated with AI development and deployment. Understand the importance of responsible AI practices and how they can influence decision-making.",
+    "date": "2023-08-16T10:00:00Z",
+    "duration": 30,
+    "room": "Hall B",
+    "track": "Artificial Intelligence",
+    "language": "English",
+    "slidesLink": "https://example.com/talks/ai-and-ethical-considerations-slides",
+    "videoLink": "https://example.com/talks/ai-and-ethical-considerations-video",
+    "tags": ["AI Ethics", "Responsible AI", "Decision-making"]
+  },
+  {
+    "slug": "cloud-native-apps-kubernetes",
+    "title": "Cloud-Native Applications with Kubernetes: From Deployment to Management",
+    "speaker": "Michael Johnson",
+    "description": "Dive into the world of cloud-native applications and explore how Kubernetes simplifies deployment, scaling, and management of containerized applications. Learn tips for Kubernetes best practices.",
+    "date": "2023-08-17T13:45:00Z",
+    "duration": 60,
+    "room": "Hall C",
+    "track": "Cloud Computing",
+    "language": "English",
+    "slidesLink": "https://example.com/talks/cloud-native-apps-kubernetes-slides",
+    "videoLink": "https://example.com/talks/cloud-native-apps-kubernetes-video",
+    "tags": ["Cloud-Native", "Kubernetes", "Containerization"]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "$ref": "#/definitions/Talks",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Talk": {
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number"
+        },
+        "language": {
+          "type": "string"
+        },
+        "room": {
+          "type": "string"
+        },
+        "slidesLink": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "speaker": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": {
+          "type": "string"
+        },
+        "track": {
+          "type": "string"
+        },
+        "videoLink": {
+          "type": "string"
+        }
+      },
+      "required": ["slug", "title", "speaker", "description", "date", "duration", "room", "track", "language"],
+      "type": "object"
+    },
+    "Talks": {
+      "items": {
+        "$ref": "#/definitions/Talk"
+      },
+      "type": "array"
+    }
+  }
+}
