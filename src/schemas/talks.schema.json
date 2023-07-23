@@ -24,9 +24,6 @@
         "slidesLink": {
           "type": "string"
         },
-        "slug": {
-          "type": "string"
-        },
         "speaker": {
           "type": "string"
         },
@@ -46,7 +43,7 @@
           "type": "string"
         }
       },
-      "required": ["slug", "title", "speaker", "description", "date", "duration", "room", "track", "language"],
+      "required": ["title", "speaker", "description", "date", "duration", "room", "track", "language"],
       "type": "object"
     },
     "Talks": {

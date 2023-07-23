@@ -1,6 +1,5 @@
 [
   {
-    "slug": "building-scalable-web-apps",
     "title": "Building Scalable Web Applications with Microservices Architecture",
     "speaker": "John Doe",
     "description": "Learn how to design and develop highly scalable web applications using microservices architecture. Discover best practices, challenges, and tools for building distributed systems.",
@@ -14,7 +13,6 @@
     "tags": ["Microservices", "Scalability", "Distributed Systems"]
   },
   {
-    "slug": "ai-and-ethical-considerations",
     "title": "AI and Ethical Considerations: Striking the Right Balance",
     "speaker": "Jane Smith",
     "description": "Explore the ethical challenges associated with AI development and deployment. Understand the importance of responsible AI practices and how they can influence decision-making.",
@@ -28,7 +26,6 @@
     "tags": ["AI Ethics", "Responsible AI", "Decision-making"]
   },
   {
-    "slug": "cloud-native-apps-kubernetes",
     "title": "Cloud-Native Applications with Kubernetes: From Deployment to Management",
     "speaker": "Michael Johnson",
     "description": "Dive into the world of cloud-native applications and explore how Kubernetes simplifies deployment, scaling, and management of containerized applications. Learn tips for Kubernetes best practices.",

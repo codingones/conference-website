@@ -1,7 +1,6 @@
-import talksJson from '@/data/talks.json';
+import { slugify } from '@/common';
 
 type TalkBase = {
-  slug: string;
   title: string;
   speaker: string;
   description: string;
@@ -16,8 +15,12 @@ type TalkBase = {
 
 export type TalkJson = TalkBase & { date: string };
 
-export type Talk = TalkBase & { date: Date };
+export type Talk = TalkBase & { date: Date; slug: string };
 
-const toTalk = (talk: TalkJson): Talk => ({ ...talk, date: new Date(talk.date) });
+export const toTalk = (talk: TalkJson): Talk => ({
+  ...talk,
+  date: new Date(talk.date),
+  slug: slugify(talk.title)
+});
 
-export const talksFromJSON = (): Talk[] => talksJson.map(toTalk);
+export const talksFromJSON = (talksJson: TalkJson[]): Talk[] => talksJson.map(toTalk);

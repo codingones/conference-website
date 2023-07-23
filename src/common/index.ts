@@ -1,1 +1,1 @@
-export * from './slug';
+export * from './slug/slug';

@@ -1,12 +1,14 @@
 import { bySlug } from '@/common';
 import { Dictionary, dictionaryFor } from '@/dictionaries';
+import talksJson from '@/data/talks.json';
 import { Talk, talksFromJSON } from './talk';
+import Link from 'next/link';
 
-export const generateStaticParams = (): Talk[] => talksFromJSON();
+export const generateStaticParams = (): Talk[] => talksFromJSON(talksJson);
 
 const TalkPage = async ({ params }: { params: Talk }): Promise<JSX.Element> => {
   const dict: Dictionary = await dictionaryFor('en');
-  const talk: Talk | undefined = talksFromJSON().find(bySlug(params.slug));
+  const talk: Talk | undefined = talksFromJSON(talksJson).find(bySlug(params.slug));
   return talk ? (
     <>
       <h1>{talk.title}</h1>
@@ -24,23 +26,30 @@ const TalkPage = async ({ params }: { params: Talk }): Promise<JSX.Element> => {
         <ul>
           {talk.slidesLink && (
             <li>
-              <a href={talk.slidesLink} target={'_blank'} rel={'noreferrer'}>
+              <a href={talk.slidesLink} target='_blank' rel='noopener noreferrer'>
                 Slides
               </a>
             </li>
           )}
           {talk.videoLink && (
             <li>
-              <a href={talk.videoLink} target={'_blank'} rel={'noreferrer'}>
+              <a href={talk.videoLink} target='_blank' rel='noopener noreferrer'>
                 Video
               </a>
             </li>
           )}
         </ul>
       )}
+      <Link href={'/talks'}>Back to talks</Link>
     </>
   ) : (
-    <></>
+    <>
+      <h1>This talk does not exist</h1>
+      <p>
+        There is no talk for this url, select another talk form the <Link href={'/talks'}>list of talks</Link>
+      </p>
+      <Link href={'/talks'}>Back to talks</Link>
+    </>
   );
 };
 
