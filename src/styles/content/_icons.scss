@@ -1,0 +1,223 @@
+@use 'sass:string';
+
+$font-family-icons-lower: string.to-lower-case($font-family-icons);
+
+@include font-face(
+  $font-family-icons,
+  $font-path-icons + $font-family-icons-lower + '/' + $font-family-icons-lower,
+  $font-extensions-icons
+);
+
+[class^='ri-'],
+[class*='ri-'] {
+  font-family: remixicon, sans-serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ri-lg {
+  font-size: 1.3333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.ri-xl {
+  font-size: 1.5em;
+  line-height: 0.6666em;
+  vertical-align: -0.075em;
+}
+
+.ri-xxs {
+  font-size: 0.55em;
+}
+
+.ri-xs {
+  font-size: 0.75em;
+}
+
+.ri-sm {
+  font-size: 0.875em;
+}
+
+.ri-1x {
+  font-size: 1em;
+}
+
+.ri-2x {
+  font-size: 2em;
+}
+
+.ri-3x {
+  font-size: 3em;
+}
+
+.ri-4x {
+  font-size: 4em;
+}
+
+.ri-5x {
+  font-size: 5em;
+}
+
+.ri-6x {
+  font-size: 6em;
+}
+
+.ri-7x {
+  font-size: 7em;
+}
+
+.ri-8x {
+  font-size: 8em;
+}
+
+.ri-9x {
+  font-size: 9em;
+}
+
+.ri-10x {
+  font-size: 10em;
+}
+
+.ri-space {
+  min-width: 2em;
+  line-height: 2em;
+}
+
+.ri-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.ri-discord-fill::before {
+  content: '\ec37';
+}
+
+.ri-facebook-fill::before {
+  content: '\ecbc';
+}
+
+.ri-dribbble-line::before {
+  content: '\ec64';
+}
+
+.ri-linkedin-fill::before {
+  content: '\eeb5';
+}
+
+.ri-github-fill::before {
+  content: '\edca';
+}
+
+.ri-gitlab-fill::before {
+  content: '\edcc';
+}
+
+.ri-instagram-fill::before {
+  content: '\ee65';
+}
+
+.ri-mastodon-fill::before {
+  content: '\ef23';
+}
+
+.ri-pinterest-fill::before {
+  content: '\efff';
+}
+
+.ri-slack-fill::before {
+  content: '\f14d';
+}
+
+.ri-tiktok-fill::before {
+  content: '\f372';
+}
+
+.ri-spotify-fill::before {
+  content: '\f17c';
+}
+
+.ri-twitter-x-line::before {
+  content: '\f3e7';
+}
+
+.ri-stack-overflow-line::before {
+  content: '\f183';
+}
+
+.ri-tumblr-fill::before {
+  content: '\f232';
+}
+
+.ri-youtube-fill::before {
+  content: '\f2d4';
+}
+
+.ri-global-line::before {
+  content: '\edcf';
+}
+
+.ri-medium-fill::before {
+  content: '\ef2b';
+}
+
+.ri-double-quotes-l::before {
+  content: '\ec51';
+}
+
+.ri-coupon-fill::before {
+  content: '\ebed';
+}
+
+.ri-mic-fill::before {
+  content: '\ef4f';
+}
+
+.ri-hand-heart-fill::before {
+  content: '\edf2';
+}
+
+.ri-team-fill::before {
+  content: '\f1ed';
+}
+
+.ri-map-pin-line::before {
+  content: '\ef14';
+}
+
+.ri-calendar-line::before {
+  content: '\eb27';
+}
+
+.ri-play-circle-fill::before {
+  content: '\f008';
+}
+
+.ri-arrow-right-s-line::before {
+  content: '\ea6e';
+}
+
+.ri-creative-commons-by-line::before {
+  content: '\ebf2';
+}
+
+.ri-arrow-right-line::before {
+  content: '\ea6c';
+}
+
+.ri-arrow-left-line::before {
+  content: '\ea60';
+}
+
+.ri-check-line::before {
+  content: '\eb7b';
+}
+
+.ri-close-line::before {
+  content: '\eb99';
+}
+
+.ri-twitch-fill::before {
+  content: '\f238';
+}

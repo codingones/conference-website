@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { ReactElement } from 'react';
 import { Talk, talksFromJSON } from '@/app/talks/[slug]/talk';
 import talksJson from '@/data/talks.json';
 
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 
 const talks: Talk[] = talksFromJSON(talksJson);
 
-const TalksPage = (): JSX.Element => (
+const TalksPage = (): ReactElement => (
   <main>
     <h1>Talks</h1>
     <ul>

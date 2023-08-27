@@ -1,0 +1,42 @@
+$enable-negative-margins: true;
+$primary: #df1c5d;
+$secondary: #271954;
+$info: #7451e3;
+$light: #eff1fd;
+$spacer: 1rem !default;
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  10: 10px
+) !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6
+);
+$input-btn-padding-x: 1.5rem;
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x-lg: 2rem;
+$input-btn-padding-y-lg: 1rem;
+$btn-border-radius: 50px;
+$btn-border-radius-lg: 50px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 900;
+$display-font-weight: $font-weight-bolder;
+$btn-font-weight: $font-weight-bold;
+$headings-font-weight: $font-weight-bolder;
+$lead-font-weight: $font-weight-normal;
+
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+
+@import 'icons';
