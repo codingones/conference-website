@@ -33,7 +33,13 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: PUBLIC_URL=${{ vars.PUBLIC_URL }} pnpm build
+        run: |
+          echo ${{ vars.NEXT_PUBLIC_ASSET_PREFIX }}
+          echo ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          echo $NEXT_PUBLIC_BASE_PATH
+          echo $NEXT_PUBLIC_BASE_PATH
+          echo ${{ vars }}
+          pnpm build
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v2
