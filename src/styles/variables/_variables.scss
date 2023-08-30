@@ -1,9 +1,12 @@
 $enable-negative-margins: true;
 $primary: #df1c5d;
 $secondary: #271954;
-$info: #7451e3;
+$warning: #fd723c;
+$info: #6342cb;
+$info-bg-subtle: #7350e1;
 $light: #eff1fd;
-$spacer: 1rem !default;
+$light-bg-subtle: #f8f9ff;
+$spacer: 1rem;
 $border-widths: (
   1: 1px,
   2: 2px,
@@ -34,6 +37,10 @@ $display-font-weight: $font-weight-bolder;
 $btn-font-weight: $font-weight-bold;
 $headings-font-weight: $font-weight-bolder;
 $lead-font-weight: $font-weight-normal;
+$navbar-padding-y: $spacer * 2;
+$navbar-nav-link-padding-x: $spacer * 1.5;
+$badge-padding-y: 0.7em;
+$badge-padding-x: 1.3em;
 
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/variables-dark';
