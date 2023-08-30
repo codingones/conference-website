@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Conference website
 
-## Getting Started
+<h2 id="about">🪧 About</h2>
 
-First, run the development server:
+The Conference Website project emerges as a response to the necessity for a straightforward and customizable solution in crafting conference websites. Envisioned as an open-source platform, this initiative strives to deliver an accessible template for building and personalizing conference websites, circumventing the complexities of intricate development environments.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To address this issue, we've developed the Conference Website project based on the Next.js framework. We've embraced simplicity by using plain JSON files to store the data needed for the conference website. This data-driven approach allows event organizers to effortlessly update conference details, schedules, speakers, and more without delving into complex coding or database management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📑 Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🪧 [About](#about)
+- ✨ [Features](#features)
+  [//]: # (- 🧭 [Usages]&#40;#usages&#41;)
+- 🎬 [Demo](#demo)
+- 🤗 [Contributing](#contributing)
+- 📝 [License](#license)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 id="features">✨ Features</h2>
 
-## Learn More
+- **Simplicity First:** We believe in the power of simplicity. Our project strips away unnecessary complexities, focusing solely on presenting your conference's information in an elegant manner.
+- **Next.js Powered:** Leveraging the capabilities of Next.js, we ensure that your conference website is not only easy to set up but also performs exceptionally well. The generated static website can be hosted on various platforms with ease.
+- **Data-Driven:** Your conference data is stored in plain JSON files, making updates as simple as editing a text document. No need for intricate CMS setups or backend configurations.
+- **Customizable:** We understand that each conference is unique. Our project is designed to be highly customizable, allowing you to tailor the website's appearance and content to match your event's branding.
 
-To learn more about Next.js, take a look at the following resources:
+[//]: # '<h2 id="usages">🧭 Usages</h2>'
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="demo">🎬 Demo</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Check out the [live demo of the Conference website](https://codingones.github.io/conference-website/)
 
-## Deploy on Vercel
+Feel free to explore its features in action and don't forget to share your thoughts and feedback! 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2 id="contributing">🤗 Contributing</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We extend an enthusiastic invitation to individuals from all walks of life to join our open-source community. Whether you're a coding virtuoso, design aficionado, wordsmith extraordinaire, or simply captivated by the world of conferences, there's a role for you within our project. Dive into the codebase, contribute enhancements, or kindle discussions in the issues section.
+
+Explore the repository's [contribution guide](./CONTRIBUTING.md) to embark on your journey.
+
+<h2 id="license">📝 License</h2>
+
+See the repository's [LICENSE.md](./LICENSE.md) file.

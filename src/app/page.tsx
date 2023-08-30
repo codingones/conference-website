@@ -193,7 +193,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-1.webp'
                   alt=''
@@ -221,7 +221,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-2.webp'
                   alt=''
@@ -249,7 +249,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-3.webp'
                   alt=''
@@ -263,7 +263,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-4.webp'
                   alt=''
@@ -277,7 +277,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-5.webp'
                   alt=''
@@ -291,7 +291,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-6.webp'
                   alt=''
@@ -305,7 +305,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-7.webp'
                   alt=''
@@ -319,7 +319,7 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', 'aspect-ratio': '1/1' }}>
+                style={{ width: '80%', aspectRatio: '1/1' }}>
                 <Image
                   src='/images/speakers/speaker-8.webp'
                   alt=''
