@@ -45,8 +45,10 @@ const Home = (): ReactElement => (
           </div>
         </div>
       </section>
-      <div className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}>
-        <img className={`img-gray-scale ${styles['home-illustration']}`} src='/images/home/speaker.webp' alt='' />
+      <div
+        className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}
+        style={{ backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)` }}>
+        <img className={`img-gray-scale ${styles['home-illustration']}`} src='./images/home/speaker.webp' alt='' />
       </div>
     </div>
     <main className='overflow-hidden'>
@@ -193,9 +195,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-1.webp'
+                  src='./images/speakers/speaker-1.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -221,9 +227,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-2.webp'
+                  src='./images/speakers/speaker-2.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -249,9 +259,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-3.webp'
+                  src='./images/speakers/speaker-3.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -263,9 +277,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-4.webp'
+                  src='./images/speakers/speaker-4.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -277,9 +295,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-5.webp'
+                  src='./images/speakers/speaker-5.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -291,9 +313,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-6.webp'
+                  src='./images/speakers/speaker-6.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -305,9 +331,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-7.webp'
+                  src='./images/speakers/speaker-7.webp'
                   alt=''
                   width={200}
                   height={200}
@@ -319,9 +349,13 @@ const Home = (): ReactElement => (
             <div className='col-md-3 col-6'>
               <div
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
-                style={{ width: '80%', aspectRatio: '1/1' }}>
+                style={{
+                  width: '80%',
+                  aspectRatio: '1/1',
+                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                }}>
                 <Image
-                  src='/images/speakers/speaker-8.webp'
+                  src='./images/speakers/speaker-8.webp'
                   alt=''
                   width={200}
                   height={200}
