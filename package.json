@@ -9,7 +9,10 @@
     "test": "vitest",
     "lint.es": "next lint",
     "lint.style": "stylelint \"**/*.scss\"",
-    "lint.commit": "commitlint",
+    "lint.commit": "commitlint --from origin/main",
+    "lint.staged": "lint-staged",
+    "prettier": "prettier --write ./src/",
+    "prettier.ci": "prettier --check ./src/",
     "prepare": "husky install"
   },
   "dependencies": {
