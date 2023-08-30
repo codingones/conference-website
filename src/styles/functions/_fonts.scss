@@ -1,0 +1,33 @@
+@use 'sass:string';
+@use 'sass:list';
+
+@function font-face-src($font-family, $font-file-name, $font-extensions) {
+  $src: ();
+
+  @if list.index($font-extensions, eot) {
+    $src: list.append(
+      $src,
+      string.unquote("url('#{$font-file-name}.eot#iefix') format('embedded-opentype')"),
+      $separator: comma
+    );
+  }
+
+  @if list.index($font-extensions, woff2) {
+    $src: list.append($src, string.unquote("url('#{$font-file-name}.woff2') format('woff2')"), $separator: comma);
+  }
+
+  @if list.index($font-extensions, woff) {
+    $src: list.append($src, string.unquote("url('#{$font-file-name}.woff') format('woff')"), $separator: comma);
+  }
+
+  @if list.index($font-extensions, ttf) {
+    $src: list.append($src, string.unquote("url('#{$font-file-name}.ttf') format('truetype')"), $separator: comma);
+  }
+
+  @if list.index($font-extensions, svg) {
+    $svg-id: string.to-lower-case($font-family);
+    $src: list.append($src, string.unquote("url('#{$font-file-name}.svg##{$svg-id}') format('svg')"), $separator: comma);
+  }
+
+  @return $src;
+}

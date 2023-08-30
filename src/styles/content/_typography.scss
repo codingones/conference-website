@@ -1,0 +1,18 @@
+@use 'sass:map';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+
+  small {
+    color: $primary;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    display: block;
+    margin-bottom: map.get($spacers, 2);
+  }
+}

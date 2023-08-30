@@ -1,12 +1,13 @@
-import { bySlug } from '@/common';
-import { Dictionary, dictionaryFor } from '@/dictionaries';
 import talksJson from '@/data/talks.json';
-import { Talk, talksFromJSON } from './talk';
+import { Dictionary, dictionaryFor } from '@/dictionaries';
 import Link from 'next/link';
+import { ReactElement } from 'react';
+import { bySlug } from '../../common';
+import { Talk, talksFromJSON } from './talk';
 
 export const generateStaticParams = (): Talk[] => talksFromJSON(talksJson);
 
-const TalkPage = async ({ params }: { params: Talk }): Promise<JSX.Element> => {
+const TalkPage = async ({ params }: { params: Talk }): Promise<ReactElement> => {
   const dict: Dictionary = await dictionaryFor('en');
   const talk: Talk | undefined = talksFromJSON(talksJson).find(bySlug(params.slug));
   return talk ? (
