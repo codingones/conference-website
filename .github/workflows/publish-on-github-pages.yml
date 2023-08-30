@@ -34,11 +34,10 @@ jobs:
 
       - name: Build
         run: |
-          echo ${{ vars.NEXT_PUBLIC_ASSET_PREFIX }}
-          echo ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          echo "START"
           echo $NEXT_PUBLIC_BASE_PATH
           echo $NEXT_PUBLIC_BASE_PATH
-          echo ${{ vars }}
+          echo "END"
           pnpm build
 
       - name: Upload build artifact
