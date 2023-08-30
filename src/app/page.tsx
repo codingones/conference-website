@@ -12,7 +12,11 @@ import styles from './home.module.scss';
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
-      <div className={`h-100 w-100 position-absolute ${styles['bg-conference']}`}></div>
+      <div
+        className={`h-100 w-100 position-absolute ${styles['bg-conference']}`}
+        style={{
+          backgroundImage: `linear-gradient(#4b3f74cc, #231254ff), url('./images/home/conference.jpeg');`
+        }}></div>
       <Navbar expand='lg' data-bs-theme='dark' style={{ zIndex: 1 }}>
         <Container>
           <Navbar.Brand href='/'>La journée des freelances</Navbar.Brand>

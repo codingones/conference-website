@@ -3,9 +3,8 @@
 @import 'bootstrap/scss/mixins';
 
 .bg-conference {
-  background:
-    linear-gradient(#4b3f74cc, #231254ff),
-    url('/images/home/conference.jpeg') no-repeat center 20%;
+  background-repeat: no-repeat;
+  background-position: center 20%;
   background-size: cover;
   filter: blur(5px);
   transform: scale(1.03);
