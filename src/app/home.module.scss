@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: center 20%;
   background-size: cover;
+  background-image: linear-gradient(#4b3f74cc, #231254ff), url($asset-prefix + '/images/home/conference.jpeg');
   filter: blur(5px);
   transform: scale(1.03);
 }
@@ -14,6 +15,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  background-image: url($asset-prefix + '/images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce);
 }
 
 .home-illustration {

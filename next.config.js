@@ -6,6 +6,9 @@ const nextConfig = {
   distDir: 'build',
   images: {
     unoptimized: true
+  },
+  sassOptions: {
+    additionalData: `$asset-prefix: ${process.env?.NEXT_PUBLIC_ASSET_PREFIX ?? "''"};`
   }
 };
 
