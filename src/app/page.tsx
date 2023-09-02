@@ -7,6 +7,7 @@ import { Badge } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { asset } from './asset';
 import styles from './home.module.scss';
 
 const Home = (): ReactElement => (
@@ -19,7 +20,7 @@ const Home = (): ReactElement => (
         }}></div>
       <Navbar expand='lg' data-bs-theme='dark' style={{ zIndex: 1 }}>
         <Container>
-          <Navbar.Brand href='/'>La journée des freelances</Navbar.Brand>
+          <Navbar.Brand href='/'>FreelanceConnect</Navbar.Brand>
           <Navbar.Toggle aria-controls='main-nav' />
           <Navbar.Collapse id='main-nav'>
             <Nav className='ms-auto'>
@@ -52,7 +53,7 @@ const Home = (): ReactElement => (
       <div
         className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}
         style={{ backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)` }}>
-        <img className={`img-gray-scale ${styles['home-illustration']}`} src='./images/home/speaker.webp' alt='' />
+        <img className={`img-gray-scale ${styles['home-illustration']}`} src={asset('images/home/speaker.webp')} alt='' />
       </div>
     </div>
     <main className='overflow-hidden'>
@@ -205,7 +206,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-1.webp'
+                  src={asset('images/speakers/speaker-1.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -237,7 +238,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-2.webp'
+                  src={asset('images/speakers/speaker-2.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -269,7 +270,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-3.webp'
+                  src={asset('images/speakers/speaker-3.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -287,7 +288,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-4.webp'
+                  src={asset('images/speakers/speaker-4.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -305,7 +306,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-5.webp'
+                  src={asset('images/speakers/speaker-5.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -323,7 +324,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-6.webp'
+                  src={asset('images/speakers/speaker-6.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -341,7 +342,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-7.webp'
+                  src={asset('images/speakers/speaker-7.webp')}
                   alt=''
                   width={200}
                   height={200}
@@ -359,7 +360,7 @@ const Home = (): ReactElement => (
                   backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
                 }}>
                 <Image
-                  src='./images/speakers/speaker-8.webp'
+                  src={asset('images/speakers/speaker-8.webp')}
                   alt=''
                   width={200}
                   height={200}

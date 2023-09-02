@@ -129,7 +129,8 @@ Runs all static analysis on files staged with git.
 - [GitHub Actions](https://docs.github.com/en/actions): GitHub's built-in integration and continuous deployment tool
   - Workflow runs are available [under Actions tab](https://github.com/codingones/conference-website/actions)
 - Variables for `github-pages` environment:
-  - `PUBLIC_URL`: https://codingones.github.io/conference-website, used by React at build time to define the URL for all static resources
+  - `NEXT_PUBLIC_BASE_PATH`: `/conference-website`, used in `NextConfig` at build time to define app `basePath` configuration
+  - `NEXT_PUBLIC_ASSET_PREFIX`: `/conference-website`, used in `NextConfig` at build time to define app `assetPrefix` configuration
 - Workflows:
   - [Validate feature branch](./.github/workflows/validate-feature-branch.yml): Runs on every branch starting with a conventional prefix. It checks code quality before merging into the `main` branch
   - [Publish on GitHub Pages](./.github/workflows/publish-on-github-pages.yml): Runs on every merge into the `main` branch. It builds and publishes a static website to GitHub Pages
