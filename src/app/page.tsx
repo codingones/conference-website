@@ -13,11 +13,7 @@ import styles from './home.module.scss';
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
-      <div
-        className={`h-100 w-100 position-absolute ${styles['bg-conference']}`}
-        style={{
-          backgroundImage: `linear-gradient(#4b3f74cc, #231254ff), url('./images/home/conference.jpeg');`
-        }}></div>
+      <div className={`h-100 w-100 position-absolute ${styles['bg-conference']}`}></div>
       <Navbar expand='lg' data-bs-theme='dark' style={{ zIndex: 1 }}>
         <Container>
           <Navbar.Brand href='/'>FreelanceConnect</Navbar.Brand>
@@ -50,9 +46,7 @@ const Home = (): ReactElement => (
           </div>
         </div>
       </section>
-      <div
-        className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}
-        style={{ backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)` }}>
+      <div className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}>
         <img className={`img-gray-scale ${styles['home-illustration']}`} src={asset('images/home/speaker.webp')} alt='' />
       </div>
     </div>
@@ -202,8 +196,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-1.webp')}
@@ -234,8 +227,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-2.webp')}
@@ -266,8 +258,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-3.webp')}
@@ -284,8 +275,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-4.webp')}
@@ -302,8 +292,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-5.webp')}
@@ -320,8 +309,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-6.webp')}
@@ -338,8 +326,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-7.webp')}
@@ -356,8 +343,7 @@ const Home = (): ReactElement => (
                 className={`rounded-circle m-auto overflow-hidden position-relative ${styles['bg-speaker']}`}
                 style={{
                   width: '80%',
-                  aspectRatio: '1/1',
-                  backgroundImage: `url('./images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce)`
+                  aspectRatio: '1/1'
                 }}>
                 <Image
                   src={asset('images/speakers/speaker-8.webp')}

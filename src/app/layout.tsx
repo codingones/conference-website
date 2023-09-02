@@ -1,10 +1,6 @@
-import './globals.scss';
+import '../styles/styles.scss';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { NextFont } from 'next/dist/compiled/@next/font';
 import { ReactElement, ReactNode } from 'react';
-
-const inter: NextFont = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: `Your Conference 2023 | Share Knowledge & Innovation`,
@@ -14,7 +10,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: ReactNode }): ReactElement => (
   <html lang='en'>
-    <body className={inter.className}>{children}</body>
+    <body>{children}</body>
   </html>
 );
 
