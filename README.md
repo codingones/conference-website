@@ -10,7 +10,6 @@ To address this issue, we've developed the Conference Website project based on t
 
 - 🪧 [About](#about)
 - ✨ [Features](#features)
-  [//]: # (- 🧭 [Usages]&#40;#usages&#41;)
 - 🎬 [Demo](#demo)
 - 🤗 [Contributing](#contributing)
 - 📝 [License](#license)
@@ -21,8 +20,6 @@ To address this issue, we've developed the Conference Website project based on t
 - **Next.js Powered:** Leveraging the capabilities of Next.js, we ensure that your conference website is not only easy to set up but also performs exceptionally well. The generated static website can be hosted on various platforms with ease.
 - **Data-Driven:** Your conference data is stored in plain JSON files, making updates as simple as editing a text document. No need for intricate CMS setups or backend configurations.
 - **Customizable:** We understand that each conference is unique. Our project is designed to be highly customizable, allowing you to tailor the website's appearance and content to match your event's branding.
-
-[//]: # '<h2 id="usages">🧭 Usages</h2>'
 
 <h2 id="demo">🎬 Demo</h2>
 
