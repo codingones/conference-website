@@ -112,7 +112,6 @@ Runs all static analysis on files staged with git.
 - [TypeScript](https://www.typescriptlang.org/): the main programming language used here, it is an open-source language that builds on JavaScript by adding static typing
 - [React](https://react.dev/): a declarative and efficient JavaScript library for building interactive user interfaces
 - [Next.js](https://nextjs.org/): a React Framework for building full-stack web applications.
--
 
 ### Tools
 
