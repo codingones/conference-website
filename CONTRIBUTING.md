@@ -139,6 +139,6 @@ Runs all static analysis on files staged with git.
 
 - [GitHub Pages](https://pages.github.com/): GitHub's static website hosting service
 
-- <h2 id="versioning">🏷️ Versioning</h2>
+<h2 id="versioning">🏷️ Versioning</h2>
 
 This project follows [Semantic Versioning 2.0.0](https://semver.org/) specification for version naming, ensuring a clear release cycle and promoting backward compatibility.
