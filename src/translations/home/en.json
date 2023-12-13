@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "The largest conference dedicated to freelancers",
+    "nextEditionDate": "Next edition to come in 2024",
+    "description": "Free and creative spirits who take their professional destiny into their own hands. Join Freelancers' Day, the must-attend event for ambitious and visionary freelancers in the Lyon region.",
+    "callToAction": "Book your ticket"
+  },
+  "header": {
+    "brand": "FreelanceConnect",
+    "about": "About",
+    "program": "Program",
+    "speakers": "Speakers",
+    "tickets": "Tickets",
+    "sponsors": "Sponsors"
+  },
+  "about": {
+    "title": "Welcome to the largest conference dedicated to freelancers",
+    "subtitle": "About the conference",
+    "description": "Free and creative minds taking control of your professional destiny. Join Freelancer Day, the must-attend event for ambitious and visionary freelancers in the Lyon region.",
+    "learnMore": "Learn more"
+  }
+}

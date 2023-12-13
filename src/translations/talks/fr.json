@@ -1,0 +1,19 @@
+{
+  "talks": {
+    "title": "Conférences",
+    "back": "Retour"
+  },
+  "talkDetails": {
+    "by": "Par",
+    "durationUnit": "min",
+    "slides": "Diaporama",
+    "video": "Video",
+    "back": "Retour à la liste des conférences"
+  },
+  "notFound": {
+    "title": "Cette conférence n'existe pas",
+    "message": "Il n'y a pas de conférence associé à cet url, sélectionnez en une autre depuis",
+    "link": "la liste des conférences",
+    "back": "Retour à la liste des conférences"
+  }
+}

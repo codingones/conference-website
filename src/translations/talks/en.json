@@ -1,0 +1,19 @@
+{
+  "talks": {
+    "title": "Talks",
+    "back": "Go back"
+  },
+  "talkDetails": {
+    "by": "By",
+    "durationUnit": "min",
+    "slides": "Slides",
+    "video": "Video",
+    "back": "Back to talks"
+  },
+  "notFound": {
+    "title": "This talk does not exist",
+    "message": "There is no talk for this url, select another talk form the",
+    "link": "list of talks",
+    "back": "Back to talks"
+  }
+}
