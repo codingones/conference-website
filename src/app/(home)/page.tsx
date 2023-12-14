@@ -1,50 +1,21 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import { Badge } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { asset } from './asset';
+import { asset } from '@/app/_utils';
+import { Translate } from '@/app/_translation';
+import { Header, About, Hero } from './_components';
+import { Program } from './_components/Program';
 import styles from './home.module.scss';
+import * as slots from '@/data/slots.json';
 
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
       <div className={`h-100 w-100 position-absolute ${styles['bg-conference']}`}></div>
-      <Navbar expand='lg' data-bs-theme='dark' style={{ zIndex: 1 }}>
-        <Container>
-          <Navbar.Brand href='/'>FreelanceConnect</Navbar.Brand>
-          <Navbar.Toggle aria-controls='main-nav' />
-          <Navbar.Collapse id='main-nav'>
-            <Nav className='ms-auto'>
-              <Nav.Link href='#about'>À propos</Nav.Link>
-              <Nav.Link href='#schedule'>Programme</Nav.Link>
-              <Nav.Link href='#speakers'>Conférenciers</Nav.Link>
-              <Nav.Link href='#tickets'>Billets</Nav.Link>
-              <Nav.Link href='#sponsors'>Sponsors</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <Header />
       <section className='container flex-grow-1 d-flex align-items-center pb-5' style={{ zIndex: 1 }}>
-        <div className='text-white col-xxl-7 col-lg-6'>
-          <h1 className='display-4'>
-            <small>Prochaine édition à venir en 2024</small>
-            La plus grande conférence dédiée aux freelances
-          </h1>
-          <p className='lead my-5'>
-            Esprits libres et créatifs qui prenez en main votre destin professionnel. Rejoignez la journée des freelances,
-            l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.
-          </p>
-          <div className='d-sm-block d-grid'>
-            <a className='btn btn-primary btn-lg' href='#tickets'>
-              Réservez votre billet
-            </a>
-          </div>
-        </div>
+        <Hero></Hero>
       </section>
       <div className={`mb-5 ${styles['bg-speaker']} ${styles['sparta']}`}>
         <img className={`img-gray-scale ${styles['home-illustration']}`} src={asset('images/home/speaker.webp')} alt='' />
@@ -52,129 +23,10 @@ const Home = (): ReactElement => (
     </div>
     <main className='overflow-hidden'>
       <section id='about' className='py-6'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-6 col-12'></div>
-            <div className='col-lg-6 col-12'>
-              <h2>
-                <small>À propos de la conférence</small>
-                Bienvenue à la plus grande conférence dédiée aux freelances
-              </h2>
-              <p className='lead my-4'>
-                Esprits libres et créatifs qui prenez en main votre destin professionnel. Rejoignez la journée des freelances,
-                l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.
-              </p>
-              <div className='d-sm-block d-grid'>
-                <button className='btn btn-outline-primary btn-lg' disabled>
-                  En savoir plus
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <About></About>
       </section>
-      <section id='schedule' className='bg-light-subtle py-6'>
-        <div className='container'>
-          <div className='row justify-content-between'>
-            <div className='col-lg-5 col-12'>
-              <h2>
-                <small>Programme de la conférence</small>
-                Retrouvez la liste des événements prévus
-              </h2>
-              <p className='lead my-4'>
-                Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes et 20 minutes
-                s’enchaîneront tout au long de la journée.
-              </p>
-              <div className='d-sm-block d-grid'>
-                <Link className='btn btn-outline-primary btn-lg' href={'talks'}>
-                  Voir le programme
-                </Link>
-              </div>
-            </div>
-            <div className='col-lg-6 col-12 mt-lg-0 mt-5'>
-              <div className='row'>
-                <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
-                  08:30 - 09:00
-                </div>
-                <div className='col-auto p-0 position-relative '>
-                  <div
-                    className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
-                    style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
-                    <small className='fw-bolder align-self-center text-center w-100'>1</small>
-                  </div>
-                </div>
-                <div className='col pb-5 ps-5 border-start border-primary-subtle border-4'>
-                  <h3 className='h4'>Accueil</h3>
-                  Récupérez votre badge pour la journée, puis prenez le temps du petit-déjeuner pour discuter un café à la main.
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
-                  09:40 - 12:00
-                </div>
-                <div className='col-auto p-0 position-relative '>
-                  <div
-                    className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
-                    style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
-                    <small className='fw-bolder align-self-center text-center w-100'>2</small>
-                  </div>
-                </div>
-                <div className='col pb-5 ps-5 border-start border-primary-subtle border-4'>
-                  <h3 className='h4'>Première partie</h3>
-                  Plénière d’ouverture, suivi de 9 de conférences réparties sur 3 pistes.
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
-                  12:00 - 13:30
-                </div>
-                <div className='col-auto p-0 position-relative '>
-                  <div
-                    className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
-                    style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
-                    <small className='fw-bolder align-self-center text-center w-100'>3</small>
-                  </div>
-                </div>
-                <div className='col pb-5 ps-5 border-start border-primary-subtle border-4'>
-                  <h3 className='h4'>Déjeuner</h3>
-                  Profitez d’un repas prévu sur place. Tout est inclus dans le prix du billet.
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
-                  13:30 - 17:40
-                </div>
-                <div className='col-auto p-0 position-relative '>
-                  <div
-                    className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
-                    style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
-                    <small className='fw-bolder align-self-center text-center w-100'>4</small>
-                  </div>
-                </div>
-                <div className='col pb-5 ps-5 border-start border-primary-subtle border-4'>
-                  <h3 className='h4'>Seconde partie</h3>
-                  12 conférences sont prévues l’après-midi, elles sont également réparties sur 3 pistes.
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
-                  17:50 - 18:30
-                </div>
-                <div className='col-auto p-0 position-relative '>
-                  <div
-                    className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
-                    style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
-                    <small className='fw-bolder align-self-center text-center w-100'>5</small>
-                  </div>
-                </div>
-                <div className='col ps-5'>
-                  <h3 className='h4'>Fermeture</h3>
-                  Plénière de fermeture suivi d’un apéro avant de se quitter.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section id='program' className='bg-light-subtle py-6'>
+        <Program serializedSlots={JSON.stringify(slots)}></Program>
       </section>
       <section id='speakers' className='text-bg-secondary py-6'>
         <div className='container'>
@@ -469,4 +321,4 @@ const Home = (): ReactElement => (
   </>
 );
 
-export default Home;
+export default Translate(Home, 'home');
