@@ -1,0 +1,59 @@
+[
+  {
+    "fullName": "Élodie Thibault",
+    "role": "Responsable des Relations Humaines chez YouFair",
+    "picture": "images/speakers/speaker-1.webp",
+    "networks": {
+      "facebook": "https://facebook.com/elodie-thibault",
+      "instagram": "https://instagram.com/elodie-thibault",
+      "x": "https://twitter.com/elodie-thibault",
+      "linkedin": "https://linkedin.com/elodie-thibault"
+    }
+  },
+  {
+    "fullName": "Jean Couvreur",
+    "role": "Contrôleur de gestion",
+    "picture": "images/speakers/speaker-2.webp",
+    "networks": {
+      "facebook": "https://facebook.com/jean-couvreur",
+      "linkedin": "https://linkedin.com/jean-couvreur"
+    }
+  },
+  {
+    "fullName": "Michel Mignard",
+    "role": "Chargée de communication indépendant",
+    "picture": "images/speakers/speaker-3.webp"
+  },
+  {
+    "fullName": "Pierre Beaulne",
+    "role": "Responsable juridique et Référent déontologue",
+    "picture": "images/speakers/speaker-4.webp"
+  },
+  {
+    "fullName": "Amélie Desjardins",
+    "role": "Key Account Manager",
+    "picture": "images/speakers/speaker-5.webp"
+  },
+  {
+    "fullName": "Sandra Béliveau",
+    "role": "Digital Ecosystem Builder",
+    "picture": "images/speakers/speaker-6.webp"
+  },
+  {
+    "fullName": "Corinne Feng",
+    "role": "Product manager @Benka",
+    "picture": "images/speakers/speaker-7.webp",
+    "networks": {
+      "linkedin": "https://linkedin.com/corinne-feng"
+    }
+  },
+  {
+    "fullName": "Yannis Benett",
+    "role": "Consultant en cybersécurité",
+    "picture": "images/speakers/speaker-8.webp",
+    "networks": {
+      "instagram": "https://instagram.com/yannis-benett",
+      "x": "https://twitter.com/yannis-benett"
+    }
+  }
+]

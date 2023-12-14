@@ -1,0 +1,184 @@
+{
+  "$ref": "#/definitions/HomeTranslation",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "HomeTranslation": {
+      "additionalProperties": false,
+      "properties": {
+        "about": {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "learnMore": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle", "description", "learnMore"],
+          "type": "object"
+        },
+        "header": {
+          "additionalProperties": false,
+          "properties": {
+            "about": {
+              "type": "string"
+            },
+            "brand": {
+              "type": "string"
+            },
+            "program": {
+              "type": "string"
+            },
+            "speakers": {
+              "type": "string"
+            },
+            "sponsors": {
+              "type": "string"
+            },
+            "tickets": {
+              "type": "string"
+            }
+          },
+          "required": ["brand", "about", "program", "speakers", "tickets", "sponsors"],
+          "type": "object"
+        },
+        "hero": {
+          "additionalProperties": false,
+          "properties": {
+            "callToAction": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "nextEditionDate": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "nextEditionDate", "description", "callToAction"],
+          "type": "object"
+        },
+        "speakers": {
+          "additionalProperties": false,
+          "properties": {
+            "callToAction": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle", "description", "callToAction"],
+          "type": "object"
+        },
+        "sponsors": {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle", "description"],
+          "type": "object"
+        },
+        "talks": {
+          "additionalProperties": false,
+          "properties": {
+            "callToAction": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "slots": {
+              "additionalProperties": {
+                "additionalProperties": false,
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": ["title", "description"],
+                "type": "object"
+              },
+              "type": "object"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle", "description", "callToAction", "slots"],
+          "type": "object"
+        },
+        "tickets": {
+          "additionalProperties": false,
+          "properties": {
+            "callToAction": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "ticketTypes": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "price": {
+                    "type": "string"
+                  }
+                },
+                "required": ["name", "price", "description"],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle", "description", "callToAction", "ticketTypes"],
+          "type": "object"
+        }
+      },
+      "required": ["hero", "header", "about", "talks", "speakers", "tickets", "sponsors"],
+      "type": "object"
+    }
+  }
+}

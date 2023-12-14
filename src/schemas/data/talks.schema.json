@@ -43,7 +43,7 @@
           "type": "string"
         }
       },
-      "required": ["title", "speaker", "description", "date", "duration", "room", "track", "language"],
+      "required": ["title", "speaker", "description", "duration", "room", "track", "language", "date"],
       "type": "object"
     },
     "Talks": {

@@ -2,7 +2,7 @@
   "hero": {
     "title": "The largest conference dedicated to freelancers",
     "nextEditionDate": "Next edition to come in 2024",
-    "description": "Free and creative spirits who take their professional destiny into their own hands. Join Freelancers' Day, the must-attend event for ambitious and visionary freelancers in the Lyon region.",
+    "description": "**Free** and **creative** spirits who take their professional destiny into their own hands. Join Freelancers' Day, the must-attend event for ambitious and visionary freelancers in the Lyon region.",
     "callToAction": "Book your ticket"
   },
   "header": {
@@ -18,5 +18,67 @@
     "subtitle": "About the conference",
     "description": "Free and creative minds taking control of your professional destiny. Join Freelancer Day, the must-attend event for ambitious and visionary freelancers in the Lyon region.",
     "learnMore": "Learn more"
+  },
+  "talks": {
+    "title": "Conference Program",
+    "subtitle": "Find the list of planned events",
+    "description": "The program takes place over one day from 08:30 to 18:00, with lectures in 40-minute and 20-minute formats throughout the day.",
+    "callToAction": "See the program",
+    "slots": {
+      "08:30-09:00": {
+        "title": "Welcome",
+        "description": "Pick up your badge for the day, then take some time for breakfast to chat with coffee in hand."
+      },
+      "09:40-12:00": {
+        "title": "Part One",
+        "description": "Opening plenary, followed by 9 conferences spread over 3 tracks."
+      },
+      "12:00-13:30": {
+        "title": "Lunch",
+        "description": "Enjoy a meal provided on site. Everything is included in the ticket price."
+      },
+      "13:30-17:40": {
+        "title": "Part Two",
+        "description": "12 conferences are planned in the afternoon, they are also divided into 3 tracks."
+      },
+      "17:50-18:30": {
+        "title": "Closure",
+        "description": "Closing plenary followed by an aperitif before leaving."
+      }
+    }
+  },
+  "speakers": {
+    "title": "Conference Speakers",
+    "subtitle": "Speakers",
+    "description": "Renowned experts in their fields will share their knowledge to help you thrive as a freelancer.",
+    "callToAction": "See all speakers"
+  },
+  "tickets": {
+    "title": "Choose the ticket that suits you from our offers",
+    "subtitle": "Book your spot",
+    "description": "We offer you three options so you can choose what best fits your budget.",
+    "callToAction": "Choose this ticket",
+    "ticketTypes": [
+      {
+        "name": "Early bird",
+        "description": "The **Early bird** offer provides access to a preferential rate, the number of tickets at this rate is limited to **60 seats**, first come, first served!",
+        "price": "29.99€"
+      },
+      {
+        "name": "Normal",
+        "description": "The **Normal** offer provides access to the conference, there is no limit on the number of seats for this rate.",
+        "price": "34.99€"
+      },
+      {
+        "name": "Support",
+        "description": "By choosing the **Support** offer, you join our sponsors in making this event possible by contributing to maintaining the economic balance, and **we sincerely thank you for that!**",
+        "price": "49.99€"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Conference Sponsors",
+    "subtitle": "Thanks to our sponsors for their support",
+    "description": "Without the support of our sponsors, we could not have offered you a conference of such quality. We would like to express our special thanks to them for their support."
   }
 }

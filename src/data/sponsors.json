@@ -1,0 +1,42 @@
+[
+  {
+    "logo": "images/sponsors/beauty-box.svg",
+    "name": "Beauty Box",
+    "url": "https://beautybox.com"
+  },
+  {
+    "logo": "images/sponsors/crofts-accountants.svg",
+    "name": "Croft's Accountants",
+    "url": "https://crofts-accountants.com"
+  },
+  {
+    "logo": "images/sponsors/dune.svg",
+    "name": "Dune",
+    "url": "https://dune.com"
+  },
+  {
+    "logo": "images/sponsors/greens-food-suppliers.svg",
+    "name": "Greens Food Suppliers",
+    "url": "https://greens-food-suppliers.com"
+  },
+  {
+    "logo": "images/sponsors/massive-dynamic.svg",
+    "name": "Massive Dynamic",
+    "url": "https://massive-dynamic.com"
+  },
+  {
+    "logo": "images/sponsors/naturesway.svg",
+    "name": "NaturesWay",
+    "url": "https://naturesway.com"
+  },
+  {
+    "logo": "images/sponsors/universo.svg",
+    "name": "Universo",
+    "url": "https://universo.com"
+  },
+  {
+    "logo": "images/sponsors/waylaid-games.svg",
+    "name": "Waylaid Games",
+    "url": "https://waylaid-games.com"
+  }
+]
