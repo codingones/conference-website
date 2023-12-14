@@ -19,4 +19,11 @@ export type HomeTranslation = {
     description: string;
     learnMore: string;
   };
+  talks: {
+    title: string;
+    subtitle: string;
+    description: string;
+    callToAction: string;
+    slots: Record<string, { title: string; description: string }>;
+  };
 };
