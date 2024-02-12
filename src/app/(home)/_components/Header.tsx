@@ -42,13 +42,15 @@ export const Header = (): ReactElement => {
             <Nav.Link href='#speakers'>{i18n.speakers}</Nav.Link>
             <Nav.Link href='#tickets'>{i18n.tickets}</Nav.Link>
             <Nav.Link href='#sponsors'>{i18n.sponsors}</Nav.Link>
-            <NavDropdown className='bg-opacity-10' title={`${selectedLanguage.toUpperCase()}`} id='translation-dropdown'>
-              {LANGUAGE_SETTINGS.availableLanguages.map((lang: string) => (
-                <NavDropdown.Item as='button' onClick={() => changeSelectedLanguage(lang)} key={lang}>
-                  {languagesMap.get(lang)}
-                </NavDropdown.Item>
-              ))}
-            </NavDropdown>
+            {LANGUAGE_SETTINGS.availableLanguages.length > 1 && (
+              <NavDropdown className='bg-opacity-10' title={`${selectedLanguage.toUpperCase()}`} id='translation-dropdown'>
+                {LANGUAGE_SETTINGS.availableLanguages.map((lang: string) => (
+                  <NavDropdown.Item as='button' onClick={() => changeSelectedLanguage(lang)} key={lang}>
+                    {languagesMap.get(lang)}
+                  </NavDropdown.Item>
+                ))}
+              </NavDropdown>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
