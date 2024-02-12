@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "title": "La plus grande conférence dédiée aux freelances",
+    "nextEditionDate": "Prochaine édition à venir en 2024",
+    "description": "Esprits **libres** et **créatifs** qui prenez en main votre destin professionnel. Rejoignez la journée des freelances, l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.",
+    "callToAction": "Réservez votre billet"
+  },
+  "header": {
+    "brand": "FreelanceConnect",
+    "about": "À propos",
+    "program": "Programme",
+    "speakers": "Conférenciers",
+    "tickets": "Billets",
+    "sponsors": "Soutiens"
+  },
+  "about": {
+    "title": "Bienvenue à la plus grande conférence dédiée aux freelances",
+    "subtitle": "À propos de la conférence",
+    "description": "Esprits hackers et créatifs qui prenez en main votre destin professionnel. Rejoignez la journée des freelances, l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.",
+    "learnMore": "En savoir plus"
+  },
+  "talks": {
+    "title": "Programme de la conférence",
+    "subtitle": "Retrouvez la liste des événements prévus",
+    "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes et 20 minutes s’enchaîneront tout au long de la journée.",
+    "callToAction": "Voir le programme",
+    "slots": {
+      "08:30-09:00": {
+        "title": "Accueil",
+        "description": "Récupérez votre badge pour la journée, puis prenez le temps du petit-déjeuner pour discuter un café à la main."
+      },
+      "09:40-12:00": {
+        "title": "Première partie",
+        "description": "Plénière d’ouverture, suivi de 9 de conférences réparties sur 3 pistes."
+      },
+      "12:00-13:30": {
+        "title": "Déjeuner",
+        "description": "Profitez d’un repas prévu sur place. Tout est inclus dans le prix du billet."
+      },
+      "13:30-17:40": {
+        "title": "Seconde partie",
+        "description": "12 conférences sont prévues l’après-midi, elles sont également réparties sur 3 pistes."
+      },
+      "17:50-18:30": {
+        "title": "Fermeture",
+        "description": "Plénière de fermeture suivi d’un apéro avant de se quitter."
+      }
+    }
+  },
+  "speakers": {
+    "title": "Les orateurs de la conférence",
+    "subtitle": "Les conférenciers",
+    "description": "Des experts renommés dans leurs domaines partageront leurs connaissances pour vous aider à vous épanouir en tant que freelance.",
+    "callToAction": "Voir tous les orateurs"
+  },
+  "tickets": {
+    "title": "Choisissez le billet qui vous convient parmi nos offres",
+    "subtitle": "Réservez votre place",
+    "description": "Nous vous proposons trois offres affin que vous puissiez choisir ce qui correspond le mieux à vos moyens.",
+    "callToAction": "Choisir ce billet",
+    "ticketTypes": [
+      {
+        "name": "Early bird",
+        "description": "L’offre **Early bird** donne l’accès à un tarif préférentiel, le nombre de billets à ce tarif est limité à **60 places**, les premiers arrivés sont les premiers servis !",
+        "price": "29.99€"
+      },
+      {
+        "name": "Normal",
+        "description": "L’offre **Normal** donne l’accès à la conférence, il n’y a pas de limite de places pour ce tarif.",
+        "price": "34.99€"
+      },
+      {
+        "name": "Soutien",
+        "description": "En choisissant l’offre de **soutien**, vous participez au côté de nos sponsors à rendre cet événement possible en contribuant à assurer l’équilibre économique et **nous vous en remercions chaleureusement !**",
+        "price": "49.99€"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Sponsors de la conférence",
+    "subtitle": "Merci à nos sponsors pour leur soutien",
+    "description": "Sans le soutien de nos sponsors nous n’aurions pas pu vous proposer une conférence d’une telle qualité, nous tenons ici à les remercier tout particulièrement pour leur soutien."
+  }
+}

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { bySlug, slugify } from './slug';
+import { bySlug, slugify } from './slug.util';
 
 describe('slug', (): void => {
   it('should find item by slug', (): void => {

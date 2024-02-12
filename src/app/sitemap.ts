@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { urlFromEnv } from './utils';
+import { urlFromEnv } from './_utils';
 
 const sitemap = (): MetadataRoute.Sitemap => [
   {

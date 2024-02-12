@@ -1,0 +1,46 @@
+{
+  "$ref": "#/definitions/Speakers",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Speaker": {
+      "additionalProperties": false,
+      "properties": {
+        "fullName": {
+          "type": "string"
+        },
+        "networks": {
+          "additionalProperties": false,
+          "properties": {
+            "facebook": {
+              "type": "string"
+            },
+            "instagram": {
+              "type": "string"
+            },
+            "linkedin": {
+              "type": "string"
+            },
+            "x": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "picture": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": ["picture", "fullName", "role"],
+      "type": "object"
+    },
+    "Speakers": {
+      "items": {
+        "$ref": "#/definitions/Speaker"
+      },
+      "type": "array"
+    }
+  }
+}

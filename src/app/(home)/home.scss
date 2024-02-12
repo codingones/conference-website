@@ -24,7 +24,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .sparta {
+  .home-illustration-container {
     height: 550px;
     width: auto;
     margin-left: $spacer;
@@ -44,7 +44,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .sparta {
+  .home-illustration-container {
     height: 550px;
     margin-left: auto;
     width: 75%;
@@ -62,14 +62,14 @@
 }
 
 @include media-breakpoint-up(md) {
-  .sparta {
+  .home-illustration-container {
     height: 650px;
     width: 65%;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .sparta {
+  .home-illustration-container {
     position: absolute;
     right: 0;
     top: 50%;
@@ -81,7 +81,7 @@
 }
 
 @include media-breakpoint-up(xl) {
-  .sparta {
+  .home-illustration-container {
     transform: translateY(-50%);
     width: 50%;
     height: 80%;
@@ -90,7 +90,7 @@
 }
 
 @include media-breakpoint-up(xxl) {
-  .sparta {
+  .home-illustration-container {
     top: 10%;
     width: 40%;
     height: 85%;

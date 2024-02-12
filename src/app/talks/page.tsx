@@ -1,8 +1,9 @@
-import Link from 'next/link';
 import { Metadata } from 'next';
 import { ReactElement } from 'react';
-import { Talk, talksFromJSON } from '@/app/talks/[slug]/talk';
 import talksJson from '@/data/talks.json';
+import { Translate } from '@/app/_translation';
+import { Talk, talksFromJSON } from './[slug]/talk';
+import { TalksList } from './_components';
 
 export const metadata: Metadata = {
   title: 'Explore Talks | Your Conference 2023',
@@ -12,18 +13,12 @@ export const metadata: Metadata = {
 
 const talks: Talk[] = talksFromJSON(talksJson);
 
-const TalksPage = (): ReactElement => (
-  <main>
-    <h1>Talks</h1>
-    <ul>
-      {talks.map((talk: Talk) => (
-        <li key={talk.slug}>
-          <Link href={'talks/' + talk.slug}>{talk.title}</Link>
-        </li>
-      ))}
-    </ul>
-    <Link href={'/'}>Go back</Link>
-  </main>
-);
+const TalksPage = (): ReactElement => {
+  return (
+    <main>
+      <TalksList talks={talks}></TalksList>
+    </main>
+  );
+};
 
-export default TalksPage;
+export default Translate(TalksPage, 'talks');
