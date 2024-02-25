@@ -1,12 +1,12 @@
 {
   "hero": {
-    "title": "La plus grande conférence dédiée aux freelances",
-    "nextEditionDate": "Prochaine édition à venir en 2024",
-    "description": "Esprits **libres** et **créatifs** qui prenez en main votre destin professionnel. Rejoignez la journée des freelances, l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.",
-    "callToAction": "Réservez votre billet"
+    "title": "Freelances Journey",
+    "nextEditionDate": "Lyon - 21 juin 2024",
+    "description": "La journée Lyonnaise qui met à l’honneur l’aventure du freelancing.",
+    "callToAction": "Réservez votre billet gratuitement"
   },
   "header": {
-    "brand": "FreelanceConnect",
+    "brand": "Freelances Journey 2024",
     "about": "À propos",
     "program": "Programme",
     "speakers": "Conférenciers",
@@ -14,9 +14,9 @@
     "sponsors": "Soutiens"
   },
   "about": {
-    "title": "Bienvenue à la plus grande conférence dédiée aux freelances",
+    "title": "Se lancer en freelance, c'est embarquer dans une aventure épique remplie de grands et petits défis à surmonter",
     "subtitle": "À propos de la conférence",
-    "description": "Esprits hackers et créatifs qui prenez en main votre destin professionnel. Rejoignez la journée des freelances, l’événement incontournable pour les freelances ambitieux et visionnaires de la région lyonnaise.",
+    "description": "Mais devine quoi ? Ce n'est pas une aventure qui doit obligatoirement être solo, et les meilleurs conseils se cachent souvent parmi nos pairs freelances ! \n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque étape de cette aventure palpitante a son propre quartier d’expertise.  \nRencontrez-vous, échangez des idées, et connectez avec des acteurs experts et influents prêts à partager leurs connaissances pour vous propulser vers le succès et la sérénité.\n\n**Freelance Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante ! \n\nAmis, freelances et freelances-en-devenir, vous êtes les bienvenus !",
     "learnMore": "En savoir plus"
   },
   "talks": {

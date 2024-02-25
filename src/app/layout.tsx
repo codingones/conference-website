@@ -4,7 +4,7 @@ import { ReactElement, ReactNode } from 'react';
 import { Language, LANGUAGE_SETTINGS } from '@/app/_language';
 
 export const metadata: Metadata = {
-  title: `Your Conference 2023 | Share Knowledge & Innovation`,
+  title: `Freelances Journey 2024`,
   description:
     'Join us at Your Conference 2023 to explore the latest tech advancements, connect with experts, and foster innovation. Get your tickets now!'
 };

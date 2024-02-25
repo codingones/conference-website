@@ -1,5 +1,4 @@
 import { ReactElement } from 'react';
-import { asset } from '@/app/_utils';
 import { Translate } from '@/app/_translation';
 import * as slots from '@/data/slots.json';
 import * as speakers from '@/data/speakers.json';
@@ -14,14 +13,11 @@ import { Tickets } from './_components/Tickets';
 const Home = (): ReactElement => (
   <>
     <div className='min-vh-100 d-flex flex-column overflow-hidden position-relative'>
-      <div className='h-100 w-100 position-absolute bg-conference'></div>
+      <div className='h-100 w-100 position-absolute bg-welcome' />
       <Header />
-      <section className='container flex-grow-1 d-flex align-items-center pb-5' style={{ zIndex: 1 }}>
+      <section id='hero' className='container flex-grow-1 d-flex align-items-center pb-5 text-center' style={{ zIndex: 1 }}>
         <Hero />
       </section>
-      <div className='mb-5 bg-speaker home-illustration-container'>
-        <img className='img-gray-scale home-illustration' src={asset('images/home/speaker.webp')} alt='' />
-      </div>
     </div>
     <main className='overflow-hidden'>
       <section id='about' className='py-6'>

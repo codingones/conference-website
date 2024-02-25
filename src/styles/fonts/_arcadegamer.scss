@@ -1,0 +1,9 @@
+@use 'sass:string';
+
+$font-family-arcadegamer-lower: string.to-lower-case($font-family-arcadegamer);
+
+@include font-face(
+  $font-family-arcadegamer,
+  $font-path-arcadegamer + $font-family-arcadegamer-lower + '/' + $font-family-arcadegamer-lower,
+  $font-extensions-arcadegamer
+);

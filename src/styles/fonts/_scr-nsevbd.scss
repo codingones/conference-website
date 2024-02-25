@@ -1,0 +1,9 @@
+@use 'sass:string';
+
+$font-family-scr-nsevbd-lower: string.to-lower-case($font-family-scr-nsevbd);
+
+@include font-face(
+  $font-family-scr-nsevbd,
+  $font-path-scr-nsevbd + $font-family-scr-nsevbd-lower + '/' + $font-family-scr-nsevbd-lower,
+  $font-extensions-scr-nsevbd
+);

@@ -16,3 +16,34 @@ h6 {
     margin-bottom: map.get($spacers, 2);
   }
 }
+
+.display-4 {
+  font-family: arcadegamer, system-ui !important;
+  text-shadow: 3px 3px 0 #ffe014;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  --#{$prefix}btn-border-color: #da531f !important;
+
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: arcadegamer, system-ui;
+  text-shadow: 1px 1px 0 #ffe014;
+}
+
+.navbar {
+  backdrop-filter: blur(50px);
+
+  // scss-docs-start navbar-css-vars
+  --#{$prefix}navbar-color: white !important;
+  --#{$prefix}navbar-hover-color: #da531f !important;
+  --#{$prefix}navbar-active-color: #ffe014 !important;
+
+  text-shadow: 1px 1px 0 #8e853e;
+}

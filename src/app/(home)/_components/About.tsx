@@ -1,11 +1,12 @@
 'use client';
 
+import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
 import { useTranslation } from '@/app/_translation';
 import { HomeTranslation } from '../homeTranslation';
 
-export const About = (): ReactElement => {
+export const About = ({ href }: { href?: string }): ReactElement => {
   const { about: i18n }: HomeTranslation = useTranslation();
 
   return (
@@ -17,11 +18,13 @@ export const About = (): ReactElement => {
             <small>{i18n.subtitle}</small> {i18n.title}
           </h2>
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
-          <div className='d-sm-block d-grid'>
-            <button className='btn btn-outline-primary btn-lg' disabled>
-              {i18n.learnMore}
-            </button>
-          </div>
+          {href && (
+            <div className='d-sm-block d-grid'>
+              <Link href={href} className='btn btn-outline-primary btn-lg'>
+                {i18n.learnMore}
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
