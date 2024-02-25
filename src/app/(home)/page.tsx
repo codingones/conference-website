@@ -1,14 +1,20 @@
-import { ReactElement } from 'react';
-import { Translate } from '@/app/_translation';
+import { LANGUAGE_SETTINGS } from '@/app/_language';
+import { availableTranslations, Translate } from '@/app/_translation';
 import * as slots from '@/data/slots.json';
 import * as speakers from '@/data/speakers.json';
 import * as sponsors from '@/data/sponsors.json';
+import type { Metadata } from 'next';
+import { ReactElement } from 'react';
 import './home.scss';
-import { Header, About, Hero } from './_components';
+import { About, Header, Hero } from './_components';
 import { Program } from './_components/Program';
 import { Speakers } from './_components/Speakers';
 import { Sponsors } from './_components/Sponsors';
 import { Tickets } from './_components/Tickets';
+import { HomeTranslation } from './homeTranslation';
+
+export const generateMetadata = async (): Promise<Metadata> =>
+  (await availableTranslations<HomeTranslation>('home')[LANGUAGE_SETTINGS.defaultLanguage]!()).metadata;
 
 const Home = (): ReactElement => (
   <>

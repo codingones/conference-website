@@ -1,9 +1,9 @@
-import Link from 'next/link';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { ReactElement } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Meet Our Distinguished Speakers | Your Conference 2023',
+  title: 'Meet Our Distinguished Speakers | Freelances Journey 2024',
   description:
     'Get inspired by our diverse lineup of esteemed speakers at Your Conference 2023. Discover their expertise and contributions to their respective fields.'
 };

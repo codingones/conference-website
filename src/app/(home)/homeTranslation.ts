@@ -1,4 +1,8 @@
 export type HomeTranslation = {
+  metadata: {
+    title: string;
+    description: string;
+  };
   hero: {
     title: string;
     nextEditionDate: string;

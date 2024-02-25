@@ -68,6 +68,19 @@
           "required": ["title", "nextEditionDate", "description", "callToAction"],
           "type": "object"
         },
+        "metadata": {
+          "additionalProperties": false,
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "description"],
+          "type": "object"
+        },
         "speakers": {
           "additionalProperties": false,
           "properties": {
@@ -177,7 +190,7 @@
           "type": "object"
         }
       },
-      "required": ["hero", "header", "about", "talks", "speakers", "tickets", "sponsors"],
+      "required": ["metadata", "hero", "header", "about", "talks", "speakers", "tickets", "sponsors"],
       "type": "object"
     }
   }
