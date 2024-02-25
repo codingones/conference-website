@@ -6,11 +6,7 @@ import * as sponsors from '@/data/sponsors.json';
 import type { Metadata } from 'next';
 import { ReactElement } from 'react';
 import './home.scss';
-import { About, Header, Hero } from './_components';
-import { Program } from './_components/Program';
-import { Speakers } from './_components/Speakers';
-import { Sponsors } from './_components/Sponsors';
-import { Tickets } from './_components/Tickets';
+import { About, Header, Hero, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
 import { HomeTranslation } from './homeTranslation';
 
 export const generateMetadata = async (): Promise<Metadata> =>
@@ -27,7 +23,9 @@ const Home = (): ReactElement => (
     </div>
     <main className='overflow-hidden'>
       <section id='about' className='py-6'>
-        <About />
+        <About>
+          <Spaces />
+        </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
         <Program serializedSlots={JSON.stringify(slots)} />

@@ -1,7 +1,7 @@
 'use client';
 
-import { ReactElement } from 'react';
 import { useTranslation } from '@/app/_translation';
+import { ReactElement } from 'react';
 import { Badge } from 'react-bootstrap';
 import Markdown from 'react-markdown';
 import { HomeTranslation } from '../homeTranslation';
@@ -18,8 +18,7 @@ export const Tickets = ({ ticketsConfiguration }: TicketsProps): ReactElement =>
       <div className='row'>
         <div className='col-lg-6 col-12'>
           <h2>
-            <small>{i18n.subtitle}</small>
-            {i18n.title}
+            <small>{i18n.subtitle}</small> {i18n.title}
           </h2>
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
         </div>

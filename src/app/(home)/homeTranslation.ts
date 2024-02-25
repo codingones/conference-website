@@ -22,6 +22,11 @@ export type HomeTranslation = {
     subtitle: string;
     description: string;
     learnMore: string;
+    spaces: {
+      title: string;
+      subtitle: string;
+      items: { name: string; description: string; image: string }[];
+    };
   };
   talks: {
     title: string;

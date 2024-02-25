@@ -1,12 +1,12 @@
 'use client';
 
+import { Speaker } from '@/app/_schemas';
+import { useTranslation } from '@/app/_translation';
+import { asset } from '@/app/_utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactElement } from 'react';
-import { useTranslation } from '@/app/_translation';
 import Markdown from 'react-markdown';
-import { Speaker } from '../../_schemas';
-import { asset } from '../../_utils';
 import { HomeTranslation } from '../homeTranslation';
 
 export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string }): ReactElement => {
@@ -18,8 +18,7 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
       <div className='row'>
         <div className='col-xl-7 col-lg-9 col-12 mx-auto text-center'>
           <h2>
-            <small>{i18n.title}</small>
-            {i18n.subtitle}
+            <small>{i18n.title}</small> {i18n.subtitle}
           </h2>
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
         </div>

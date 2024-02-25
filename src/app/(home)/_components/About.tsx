@@ -1,18 +1,17 @@
 'use client';
 
-import Link from 'next/link';
-import { ReactElement } from 'react';
-import Markdown from 'react-markdown';
 import { useTranslation } from '@/app/_translation';
+import Link from 'next/link';
+import { ReactElement, ReactNode } from 'react';
+import Markdown from 'react-markdown';
 import { HomeTranslation } from '../homeTranslation';
 
-export const About = ({ href }: { href?: string }): ReactElement => {
+export const About = ({ href, children }: { href?: string; children?: ReactNode }): ReactElement => {
   const { about: i18n }: HomeTranslation = useTranslation();
 
   return (
     <div className='container'>
-      <div className='row'>
-        <div className='col-lg-6 col-12'></div>
+      <div className='row g-6'>
         <div className='col-lg-6 col-12'>
           <h2>
             <small>{i18n.subtitle}</small> {i18n.title}
@@ -26,6 +25,7 @@ export const About = ({ href }: { href?: string }): ReactElement => {
             </div>
           )}
         </div>
+        <div className='col-lg-6 col-12'>{children}</div>
       </div>
     </div>
   );

@@ -9,10 +9,10 @@
 
 .bg-welcome {
   background:
-    top 15% left 10% repeat-x url($asset-prefix + '/images/home/cloud.webp'),
-    bottom 18% right 20% no-repeat url($asset-prefix + '/images/home/guy-and-cat.webp'),
-    bottom repeat-x url($asset-prefix + '/images/home/bush.webp'),
-    bottom repeat-x url($asset-prefix + '/images/home/ground.svg'),
+    top 15% left 10% repeat-x url($asset-prefix + '/images/home/welcome/cloud.webp'),
+    bottom 18% right 20% no-repeat url($asset-prefix + '/images/home/welcome/guy-and-cat.webp'),
+    bottom repeat-x url($asset-prefix + '/images/home/welcome/bush.webp'),
+    bottom repeat-x url($asset-prefix + '/images/home/welcome/ground.svg'),
     linear-gradient(#00a2ff, #6beffe);
   min-width: 1200px;
   min-height: 800px;
@@ -22,5 +22,5 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url($asset-prefix + '/images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce);
+  background-image: url($asset-prefix + '/images/home/welcome/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce);
 }

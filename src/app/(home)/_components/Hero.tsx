@@ -1,8 +1,8 @@
 'use client';
 
+import { useTranslation } from '@/app/_translation';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { useTranslation } from '@/app/_translation';
 import { HomeTranslation } from '../homeTranslation';
 
 export const Hero = (): ReactElement => {
@@ -11,8 +11,7 @@ export const Hero = (): ReactElement => {
   return (
     <div className='text-white col-xxl-7 col-lg-6'>
       <h1 className='display-4'>
-        <small>{i18n.nextEditionDate}</small>
-        {i18n.title}
+        <small>{i18n.nextEditionDate}</small> {i18n.title}
       </h1>
       <Markdown className='lead my-5'>{i18n.description}</Markdown>
       <div className='d-sm-block d-grid'>

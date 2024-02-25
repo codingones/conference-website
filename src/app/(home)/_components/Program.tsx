@@ -1,10 +1,10 @@
 'use client';
 
+import { Slot, Slots } from '@/app/_schemas';
+import { useTranslation } from '@/app/_translation';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { Slot, Slots } from '@/app/_schemas';
-import { useTranslation } from '@/app/_translation';
 import { HomeTranslation } from '../homeTranslation';
 
 export const Program = ({ serializedSlots }: { serializedSlots: string }): ReactElement => {
@@ -16,8 +16,7 @@ export const Program = ({ serializedSlots }: { serializedSlots: string }): React
       <div className='row justify-content-between'>
         <div className='col-lg-5 col-12'>
           <h2>
-            <small>{i18n.title}</small>
-            {i18n.subtitle}
+            <small>{i18n.title}</small> {i18n.subtitle}
           </h2>
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
           <div className='d-sm-block d-grid'>
