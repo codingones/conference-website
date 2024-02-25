@@ -2,13 +2,20 @@
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/mixins';
 
-.bg-conference {
-  background-repeat: no-repeat;
-  background-position: center 20%;
-  background-size: cover;
-  background-image: linear-gradient(#4b3f74cc, #231254ff), url($asset-prefix + '/images/home/conference.jpeg');
-  filter: blur(5px);
-  transform: scale(1.03);
+#hero .lead {
+  font-family: scr-nsevbd, system-ui;
+  font-size: 1.9rem;
+}
+
+.bg-welcome {
+  background:
+    top 15% left 10% repeat-x url($asset-prefix + '/images/home/cloud.webp'),
+    bottom 18% right 20% no-repeat url($asset-prefix + '/images/home/guy-and-cat.webp'),
+    bottom repeat-x url($asset-prefix + '/images/home/bush.webp'),
+    bottom repeat-x url($asset-prefix + '/images/home/ground.svg'),
+    linear-gradient(#00a2ff, #6beffe);
+  min-width: 1200px;
+  min-height: 800px;
 }
 
 .bg-speaker {
@@ -16,84 +23,4 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url($asset-prefix + '/images/home/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce);
-}
-
-.home-illustration {
-  position: absolute;
-  transform: translateX(-50%);
-}
-
-@include media-breakpoint-down(sm) {
-  .home-illustration-container {
-    height: 550px;
-    width: auto;
-    margin-left: $spacer;
-    border-top-left-radius: var(--bs-border-radius-xxl);
-    border-bottom-left-radius: var(--bs-border-radius-xxl);
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-
-    .home-illustration {
-      min-height: 550px;
-      top: 5%;
-      width: 70%;
-      min-width: 350px;
-    }
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  .home-illustration-container {
-    height: 550px;
-    margin-left: auto;
-    width: 75%;
-    border-top-left-radius: var(--bs-border-radius-xxl);
-    border-bottom-left-radius: var(--bs-border-radius-xxl);
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-
-    .home-illustration {
-      bottom: 0;
-      height: 90%;
-    }
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .home-illustration-container {
-    height: 650px;
-    width: 65%;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .home-illustration-container {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 45%;
-    height: 70%;
-    min-height: 650px;
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .home-illustration-container {
-    transform: translateY(-50%);
-    width: 50%;
-    height: 80%;
-    min-height: 800px;
-  }
-}
-
-@include media-breakpoint-up(xxl) {
-  .home-illustration-container {
-    top: 10%;
-    width: 40%;
-    height: 85%;
-    transform: translateY(0);
-  }
 }

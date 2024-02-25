@@ -1,5 +1,5 @@
 $enable-negative-margins: true;
-$primary: #df1c5d;
+$primary: #dd790f;
 $secondary: #271954;
 $warning: #fd723c;
 $info: #6342cb;
@@ -7,6 +7,9 @@ $info-bg-subtle: #7350e1;
 $light: #eff1fd;
 $light-bg-subtle: #f8f9ff;
 $spacer: 1rem;
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 5 !important;
+$headings-font-family: scr-nsevbd, system-ui;
 $border-widths: (
   1: 1px,
   2: 2px,
@@ -41,12 +44,14 @@ $input-btn-padding-x: 1.5rem;
 $input-btn-padding-y: 0.75rem;
 $input-btn-padding-x-lg: 2rem;
 $input-btn-padding-y-lg: 1rem;
-$btn-border-radius: 50px;
-$btn-border-radius-lg: 50px;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-bolder: 900;
 $display-font-weight: $font-weight-bolder;
+$btn-border-width: 5px;
+$btn-font-family: arcadegamer, system-ui;
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
 $btn-font-weight: $font-weight-bold;
 $headings-font-weight: $font-weight-bolder;
 $lead-font-weight: $font-weight-normal;
@@ -59,4 +64,5 @@ $badge-padding-x: 1.3em;
 @import 'bootstrap/scss/variables-dark';
 @import 'bootstrap/scss/maps';
 
+@import 'fonts';
 @import 'icons';
