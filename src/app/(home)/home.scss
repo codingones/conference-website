@@ -18,9 +18,20 @@
   min-height: 800px;
 }
 
-.bg-speaker {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url($asset-prefix + '/images/home/welcome/wave.svg'), linear-gradient(to bottom right, #fb4a85, #5223ce);
+.program-step-index {
+  color: white !important;
+  font-family: arcadegamer, system-ui;
+}
+
+#speakers {
+  h2 small {
+    color: #072f4d;
+  }
+
+  color: white;
+  background-color: #179cff;
+
+  .bg-speaker {
+    background-color: #a2d7ff;
+  }
 }

@@ -4,7 +4,6 @@ import { Speaker } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import { asset } from '@/app/_utils';
 import Image from 'next/image';
-import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
 import { HomeTranslation } from '../homeTranslation';
@@ -37,7 +36,7 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
                 alt=''
                 width={200}
                 height={200}
-                className='img-gray-scale position-absolute translate-middle-x bottom-0 w-100 h-100'></Image>
+                className='position-absolute translate-middle-x bottom-0 w-100 h-100'></Image>
             </div>
             {speaker.networks && (
               <div className='btn-group mt-n4'>
@@ -72,11 +71,11 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
           </div>
         ))}
       </div>
-      <div className='d-sm-block d-grid py-5 text-center'>
-        <Link className='btn btn-outline-light btn-lg' href={'speakers'}>
-          {i18n.callToAction}
-        </Link>
-      </div>
+      {/*<div className='d-sm-block d-grid py-5 text-center'>*/}
+      {/*  <Link className='btn btn-outline-light btn-lg' href={'speakers'}>*/}
+      {/*    {i18n.callToAction}*/}
+      {/*  </Link>*/}
+      {/*</div>*/}
     </div>
   );
 };

@@ -1,59 +1,66 @@
 [
   {
-    "fullName": "Élodie Thibault",
-    "role": "Responsable des Relations Humaines chez YouFair",
-    "picture": "images/speakers/speaker-1.webp",
+    "fullName": "Ruben Taieb",
+    "role": "Je partage un conseil LinkedIn par jour → Abonne-toi",
+    "picture": "images/speakers/Ruben-Taieb.webp",
     "networks": {
-      "facebook": "https://facebook.com/elodie-thibault",
-      "instagram": "https://instagram.com/elodie-thibault",
-      "x": "https://twitter.com/elodie-thibault",
-      "linkedin": "https://linkedin.com/elodie-thibault"
+      "linkedin": "https://www.linkedin.com/in/rubentaieb"
     }
   },
   {
-    "fullName": "Jean Couvreur",
-    "role": "Contrôleur de gestion",
-    "picture": "images/speakers/speaker-2.webp",
+    "fullName": "Benoit Gantaume",
+    "role": "Je développe des applications avec envie parfois, passion souvent !",
+    "picture": "images/speakers/Benoit-Gantaume.webp",
     "networks": {
-      "facebook": "https://facebook.com/jean-couvreur",
-      "linkedin": "https://linkedin.com/jean-couvreur"
+      "linkedin": "https://www.linkedin.com/in/benoitgantaume"
     }
   },
   {
-    "fullName": "Michel Mignard",
-    "role": "Chargée de communication indépendant",
-    "picture": "images/speakers/speaker-3.webp"
-  },
-  {
-    "fullName": "Pierre Beaulne",
-    "role": "Responsable juridique et Référent déontologue",
-    "picture": "images/speakers/speaker-4.webp"
-  },
-  {
-    "fullName": "Amélie Desjardins",
-    "role": "Key Account Manager",
-    "picture": "images/speakers/speaker-5.webp"
-  },
-  {
-    "fullName": "Sandra Béliveau",
-    "role": "Digital Ecosystem Builder",
-    "picture": "images/speakers/speaker-6.webp"
-  },
-  {
-    "fullName": "Corinne Feng",
-    "role": "Product manager @Benka",
-    "picture": "images/speakers/speaker-7.webp",
+    "fullName": "Flavie Prévot",
+    "role": "J'aide les entreprises et les freelances à mieux travailler ensemble",
+    "picture": "images/speakers/Flavie-Prévot.webp",
     "networks": {
-      "linkedin": "https://linkedin.com/corinne-feng"
+      "linkedin": "https://www.linkedin.com/in/flavieprevot"
     }
   },
   {
-    "fullName": "Yannis Benett",
-    "role": "Consultant en cybersécurité",
-    "picture": "images/speakers/speaker-8.webp",
+    "fullName": "Samuel Durand",
+    "role": "J'écris, je parle et je donne des conseils au sujet de l'avenir du travail",
+    "picture": "images/speakers/Samuel-Durand.webp",
     "networks": {
-      "instagram": "https://instagram.com/yannis-benett",
-      "x": "https://twitter.com/yannis-benett"
+      "linkedin": "https://www.linkedin.com/in/samuel-durand"
+    }
+  },
+  {
+    "fullName": "Thomas Burbidge",
+    "role": "Je construis des expériences éducatives pour les entrepreneurs, les indépendants et les freelances",
+    "picture": "images/speakers/Thomas-Burbidge.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/thomasburbidge"
+    }
+  },
+  {
+    "fullName": "Killian Tallin",
+    "role": "Je construis un mini-village pour créateurs dans la nature",
+    "picture": "images/speakers/Killian-Tallin.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/killian-talin"
+    }
+  },
+  {
+    "fullName": "Valentin Decker",
+    "role": "J'aide les créateurs à publier leurs idées en ligne et en vivre avec un business de Freelance",
+    "picture": "images/speakers/Valentin-Decker.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/valentindecker"
+    }
+  },
+  {
+    "fullName": "Hannah Peters",
+    "role": "J'accompagne sur tous les sujets liés à la reconversion entrepreneuriale ou salariée",
+    "picture": "images/speakers/Hannah-Peters.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/hannah-peters-formation-marketing-digi-atlas"
     }
   }
 ]

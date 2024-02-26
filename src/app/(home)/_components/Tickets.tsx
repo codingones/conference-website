@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslation } from '@/app/_translation';
+import Link from 'next/link';
 import { ReactElement } from 'react';
 import { Badge } from 'react-bootstrap';
 import Markdown from 'react-markdown';
@@ -23,7 +24,7 @@ export const Tickets = ({ ticketsConfiguration }: TicketsProps): ReactElement =>
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
         </div>
       </div>
-      <div className='row mt-0 gx-xl-6 gy-4'>
+      <div className='row mt-0 gx-xl-6 gy-6 my-5'>
         {i18n.ticketTypes.map((ticket, index) => {
           return (
             <div key={ticket.name} className='col-lg-4 col-md-8 col-12 mx-auto'>
@@ -44,9 +45,13 @@ export const Tickets = ({ ticketsConfiguration }: TicketsProps): ReactElement =>
                 <div className='p-4'>
                   <Markdown>{ticket.description}</Markdown>
                   <div className='text-center my-4'>
-                    <button className='btn btn-primary' disabled>
+                    <Link
+                      className={`btn btn-primary ${ticket.link == null && 'disabled'}`}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      href={ticket.link ?? '#'}>
                       {i18n.callToAction}
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

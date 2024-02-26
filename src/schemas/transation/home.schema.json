@@ -215,6 +215,9 @@
                   "description": {
                     "type": "string"
                   },
+                  "link": {
+                    "type": "string"
+                  },
                   "name": {
                     "type": "string"
                   },

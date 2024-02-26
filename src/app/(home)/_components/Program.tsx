@@ -7,7 +7,7 @@ import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
 import { HomeTranslation } from '../homeTranslation';
 
-export const Program = ({ serializedSlots }: { serializedSlots: string }): ReactElement => {
+export const Program = ({ serializedSlots, disabled }: { serializedSlots: string; disabled: boolean }): ReactElement => {
   const slots: Slots = Array.from(JSON.parse(serializedSlots));
   const { talks: i18n }: HomeTranslation = useTranslation();
 
@@ -18,9 +18,9 @@ export const Program = ({ serializedSlots }: { serializedSlots: string }): React
           <h2>
             <small>{i18n.title}</small> {i18n.subtitle}
           </h2>
-          <Markdown className='lead my-4'>{i18n.description}</Markdown>
+          <Markdown className='lead mt-4 mb-5'>{i18n.description}</Markdown>
           <div className='d-sm-block d-grid'>
-            <Link className='btn btn-outline-primary btn-lg' href={'talks'}>
+            <Link className={`btn btn-outline-primary btn-lg ${disabled && 'disabled'}`} href={'talks'}>
               {i18n.callToAction}
             </Link>
           </div>
@@ -31,9 +31,9 @@ export const Program = ({ serializedSlots }: { serializedSlots: string }): React
               <div className='col-auto fw-semibold text-muted me-4 mt-1' style={{ width: '135px' }}>
                 {slot.start} - {slot.end}
               </div>
-              <div className='col-auto p-0 position-relative '>
+              <div className='col-auto p-0 position-relative'>
                 <div
-                  className='position-absolute text-bg-primary rounded-circle start-0 translate-middle-x d-flex'
+                  className='position-absolute text-bg-primary start-0 translate-middle-x d-flex program-step-index'
                   style={{ width: '29px', height: '29px', marginLeft: '2px' }}>
                   <small className='fw-bolder align-self-center text-center w-100'>{index + 1}</small>
                 </div>

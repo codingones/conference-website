@@ -61,8 +61,8 @@
   "talks": {
     "title": "Programme de la journée",
     "subtitle": "Retrouvez la liste des événements prévus",
-    "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes et 20 minutes s’enchaîneront tout au long de la journée.",
-    "callToAction": "Voir le programme",
+    "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes s’enchaîneront tout au long de la journée.",
+    "callToAction": "Programme bientôt disponible",
     "slots": {
       "08:30-09:00": {
         "title": "Accueil",
@@ -70,15 +70,15 @@
       },
       "09:40-12:00": {
         "title": "Première partie",
-        "description": "Plénière d’ouverture, suivi de 9 de conférences réparties sur 3 pistes."
+        "description": "Plénière d’ouverture, suivi de 3 de conférences."
       },
       "12:00-13:30": {
         "title": "Déjeuner",
-        "description": "Profitez d’un repas prévu sur place. Tout est inclus dans le prix du billet."
+        "description": "Des food trucks disponible sur place pour vous permettre de vous restaurer."
       },
       "13:30-17:40": {
         "title": "Seconde partie",
-        "description": "12 conférences sont prévues l’après-midi, elles sont également réparties sur 3 pistes."
+        "description": "4 conférences sont prévues l’après-midi."
       },
       "17:50-18:30": {
         "title": "Fermeture",
@@ -87,31 +87,22 @@
     }
   },
   "speakers": {
-    "title": "Les orateurs de la conférence",
+    "title": "La crème de la crème des experts sur le freelancing",
     "subtitle": "Les conférenciers",
-    "description": "Des experts renommés dans leurs domaines partageront leurs connaissances pour vous aider à vous épanouir en tant que freelance.",
+    "description": "Des ateliers et des talk de qualité, animés par les créateurs de contenu plébiscités par les freelances auront lieu tout au long de la journée.",
     "callToAction": "Voir tous les orateurs"
   },
   "tickets": {
-    "title": "Choisissez le billet qui vous convient parmi nos offres",
-    "subtitle": "Réservez votre place",
-    "description": "Nous vous proposons trois offres affin que vous puissiez choisir ce qui correspond le mieux à vos moyens.",
-    "callToAction": "Choisir ce billet",
+    "title": "Réservez votre billet gratuitement",
+    "subtitle": "Participez à l'aventure",
+    "description": "Partagez l'évènement avec le hashtag **#FreelanceJourney2024** sur **LinkedIn** pour recevoir votre **code d'accès exclusif**.",
+    "callToAction": "Je prends mon billet",
     "ticketTypes": [
       {
-        "name": "Early bird",
-        "description": "L’offre **Early bird** donne l’accès à un tarif préférentiel, le nombre de billets à ce tarif est limité à **60 places**, les premiers arrivés sont les premiers servis !",
-        "price": "29.99€"
-      },
-      {
-        "name": "Normal",
-        "description": "L’offre **Normal** donne l’accès à la conférence, il n’y a pas de limite de places pour ce tarif.",
-        "price": "34.99€"
-      },
-      {
-        "name": "Soutien",
-        "description": "En choisissant l’offre de **soutien**, vous participez au côté de nos sponsors à rendre cet événement possible en contribuant à assurer l’équilibre économique et **nous vous en remercions chaleureusement !**",
-        "price": "49.99€"
+        "name": "Code d'accès requis",
+        "description": "Vous devez obtenir un **code d'accès** pour obtenir votre billet. Et pour ça rien de plus facile : partager un poste sur Linkedin avec un lien vers ce site et le hashtag **#FreelanceJourney2024**, nous vous enverrons votre code d'accès unique par messagerie.",
+        "price": "Gratuit",
+        "link": "https://www.billetweb.fr/freelances-journey"
       }
     ]
   },

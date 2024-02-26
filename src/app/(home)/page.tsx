@@ -32,19 +32,13 @@ const Home = (): ReactElement => (
         </About>
       </section>
       <section id='program' className='bg-light-subtle py-6'>
-        <Program serializedSlots={JSON.stringify(slots)} />
+        <Program serializedSlots={JSON.stringify(slots)} disabled />
       </section>
-      <section id='speakers' className='text-bg-secondary py-6'>
+      <section id='speakers' className='py-6'>
         <Speakers serializedSpeakers={JSON.stringify(speakers)} />
       </section>
       <section id='tickets' className='bg-light py-6'>
-        <Tickets
-          ticketsConfiguration={[
-            { variant: 'primary-subtle' },
-            { variant: 'warning', highlight: true },
-            { variant: 'info-subtle' }
-          ]}
-        />
+        <Tickets ticketsConfiguration={[{ variant: 'primary-subtle' }]} />
       </section>
       <section id='sponsors' className='bg-light pb-6'>
         <Sponsors serializedSponsors={JSON.stringify(sponsors)} />

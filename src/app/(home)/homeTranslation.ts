@@ -50,6 +50,7 @@ export type HomeTranslation = {
       name: string;
       price: string;
       description: string;
+      link?: string;
     }[];
   };
   organizers: {
