@@ -1,0 +1,31 @@
+{
+  "$ref": "#/definitions/Organizers",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Organizer": {
+      "additionalProperties": false,
+      "properties": {
+        "displayName": {
+          "type": "boolean"
+        },
+        "logo": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": ["logo", "name", "url"],
+      "type": "object"
+    },
+    "Organizers": {
+      "items": {
+        "$ref": "#/definitions/Organizer"
+      },
+      "type": "array"
+    }
+  }
+}

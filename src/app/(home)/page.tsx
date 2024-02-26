@@ -1,12 +1,13 @@
 import { LANGUAGE_SETTINGS } from '@/app/_language';
 import { availableTranslations, Translate } from '@/app/_translation';
+import * as organizers from '@/data/organizers.json';
 import * as slots from '@/data/slots.json';
 import * as speakers from '@/data/speakers.json';
 import * as sponsors from '@/data/sponsors.json';
 import type { Metadata } from 'next';
 import { ReactElement } from 'react';
 import './home.scss';
-import { About, Header, Hero, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
+import { About, Header, Hero, Organizers, Program, Spaces, Speakers, Sponsors, Tickets } from './_components';
 import { HomeTranslation } from './homeTranslation';
 
 export const generateMetadata = async (): Promise<Metadata> =>
@@ -22,6 +23,9 @@ const Home = (): ReactElement => (
       </section>
     </div>
     <main className='overflow-hidden'>
+      <section id='organizers' className='bg-light-subtle py-6'>
+        <Organizers serializedOrganizers={JSON.stringify(organizers)} />
+      </section>
       <section id='about' className='py-6'>
         <About>
           <Spaces />

@@ -113,6 +113,19 @@
           "required": ["title", "description"],
           "type": "object"
         },
+        "organizers": {
+          "additionalProperties": false,
+          "properties": {
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": ["title", "subtitle"],
+          "type": "object"
+        },
         "speakers": {
           "additionalProperties": false,
           "properties": {
@@ -222,7 +235,7 @@
           "type": "object"
         }
       },
-      "required": ["metadata", "hero", "header", "about", "talks", "speakers", "tickets", "sponsors"],
+      "required": ["metadata", "hero", "header", "about", "talks", "speakers", "tickets", "organizers", "sponsors"],
       "type": "object"
     }
   }

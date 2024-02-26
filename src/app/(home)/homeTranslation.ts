@@ -52,6 +52,10 @@ export type HomeTranslation = {
       description: string;
     }[];
   };
+  organizers: {
+    title: string;
+    subtitle: string;
+  };
   sponsors: {
     title: string;
     subtitle: string;

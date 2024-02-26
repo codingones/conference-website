@@ -17,9 +17,13 @@
     "tickets": "Billets",
     "sponsors": "Soutiens"
   },
+  "organizers": {
+    "title": "Freelances Journey est",
+    "subtitle": "Organisé par"
+  },
   "about": {
     "title": "Se lancer en freelance, c'est embarquer dans une aventure épique remplie de grands et petits défis à surmonter",
-    "subtitle": "À propos de la conférence",
+    "subtitle": "À propos de l'aventure",
     "description": "Mais devine quoi&nbsp;? Ce n'est pas une aventure qui doit obligatoirement être solo, et les meilleurs conseils se cachent souvent parmi nos pairs freelances&nbsp;!\n\nImagine-toi dans un village éphémère dédié aux freelances, où chaque étape de cette aventure palpitante a son propre quartier d’expertise.\nRencontrez-vous, échangez des idées, et connectez avec des acteurs experts et influents prêts à partager leurs connaissances pour vous propulser vers le succès et la sérénité.\n\n**Freelance Journey**, c'est bien plus qu'un événement, c'est une journée immersive où le freelancing devient une expérience collective. Prépare-toi à explorer, apprendre, et connecter avec d'autres aventuriers du freelancing dans une ambiance fun et inspirante&nbsp;! \n\nAmis, freelances et freelances-en-devenir, vous êtes les bienvenus&nbsp;!",
     "learnMore": "En savoir plus",
     "spaces": {
@@ -55,7 +59,7 @@
     }
   },
   "talks": {
-    "title": "Programme de la conférence",
+    "title": "Programme de la journée",
     "subtitle": "Retrouvez la liste des événements prévus",
     "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes et 20 minutes s’enchaîneront tout au long de la journée.",
     "callToAction": "Voir le programme",
@@ -112,8 +116,8 @@
     ]
   },
   "sponsors": {
-    "title": "Sponsors de la conférence",
-    "subtitle": "Merci à nos sponsors pour leur soutien",
-    "description": "Sans le soutien de nos sponsors nous n’aurions pas pu vous proposer une conférence d’une telle qualité, nous tenons ici à les remercier tout particulièrement pour leur soutien."
+    "title": "Sponsors de l'aventure",
+    "subtitle": "Merci pour leur soutien !",
+    "description": "Sans le soutien de nos sponsors, **Freelances Journey** n'aurait pas pu voir le jour, nous tenons ici à les remercier tout particulièrement pour leur soutien."
   }
 }

@@ -15,6 +15,7 @@
     "prettier.ci": "prettier --check ./src/",
     "prepare": "husky install",
     "data.schema.slots": "ts-json-schema-generator -p 'src/app/_schemas/slots.ts' -t 'Slots' -o 'src/schemas/data/slots.schema.json'",
+    "data.schema.organizers": "ts-json-schema-generator -p 'src/app/_schemas/organizers.ts' -t 'Organizers' -o 'src/schemas/data/organizers.schema.json'",
     "data.schema.speakers": "ts-json-schema-generator -p 'src/app/_schemas/speakers.ts' -t 'Speakers' -o 'src/schemas/data/speakers.schema.json'",
     "data.schema.sponsors": "ts-json-schema-generator -p 'src/app/_schemas/sponsors.ts' -t 'Sponsors' -o 'src/schemas/data/sponsors.schema.json'",
     "data.schema.talks": "ts-json-schema-generator -p 'src/app/_schemas/talks.ts' -t 'Talks' -o 'src/schemas/data/talks.schema.json'",

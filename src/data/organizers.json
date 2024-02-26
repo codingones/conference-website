@@ -1,0 +1,18 @@
+[
+  {
+    "logo": "images/home/organizers/alexandre-favrot.webp",
+    "name": "Alexandre Favrot",
+    "url": "https://www.linkedin.com/in/alexandre-favrot/",
+    "displayName": true
+  },
+  {
+    "logo": "images/home/organizers/hackyourjob.svg",
+    "name": "HackYourJob",
+    "url": "https://www.hackyourjob.org/"
+  },
+  {
+    "logo": "images/home/organizers/superindep.svg",
+    "name": "superindep.fr",
+    "url": "https://www.superindep.fr/"
+  }
+]

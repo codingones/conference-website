@@ -1,11 +1,11 @@
 'use client';
 
+import { Sponsor } from '@/app/_schemas';
 import { useTranslation } from '@/app/_translation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import Markdown from 'react-markdown';
-import { Sponsor } from '../../_schemas';
 import { HomeTranslation } from '../homeTranslation';
 
 export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string }): ReactElement => {
@@ -22,7 +22,7 @@ export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string })
       </div>
       <div className='row gap-5 justify-content-center'>
         {sponsors.map((sponsor: Sponsor) => (
-          <Link className='col-auto opacity-35' key={sponsor.name} href={sponsor.url} target='_blank' rel='noopener noreferrer'>
+          <Link className='col-auto' key={sponsor.name} href={sponsor.url} target='_blank' rel='noopener noreferrer'>
             <Image
               src={sponsor.logo}
               alt={`Visit ${sponsor.name} website (opens in new tab)`}
