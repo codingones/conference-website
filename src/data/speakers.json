@@ -8,14 +8,6 @@
     }
   },
   {
-    "fullName": "Benoit Gantaume",
-    "role": "Je développe des applications avec envie parfois, passion souvent !",
-    "picture": "images/speakers/Benoit-Gantaume.webp",
-    "networks": {
-      "linkedin": "https://www.linkedin.com/in/benoitgantaume"
-    }
-  },
-  {
     "fullName": "Flavie Prévot",
     "role": "J'aide les entreprises et les freelances à mieux travailler ensemble",
     "picture": "images/speakers/Flavie-Prévot.webp",
@@ -40,14 +32,6 @@
     }
   },
   {
-    "fullName": "Killian Tallin",
-    "role": "Je construis un mini-village pour créateurs dans la nature",
-    "picture": "images/speakers/Killian-Tallin.webp",
-    "networks": {
-      "linkedin": "https://www.linkedin.com/in/killian-talin"
-    }
-  },
-  {
     "fullName": "Valentin Decker",
     "role": "J'aide les créateurs à publier leurs idées en ligne et en vivre avec un business de Freelance",
     "picture": "images/speakers/Valentin-Decker.webp",
@@ -61,6 +45,14 @@
     "picture": "images/speakers/Hannah-Peters.webp",
     "networks": {
       "linkedin": "https://www.linkedin.com/in/hannah-peters-formation-marketing-digi-atlas"
+    }
+  },
+  {
+    "fullName": "Alexandre Favrot",
+    "role": "Consultant SEO depuis 8 ans - Surtout pour TPE, Indépendants et Freelances",
+    "picture": "images/speakers/Alexandre-Favrot.webp",
+    "networks": {
+      "linkedin": "https://www.linkedin.com/in/alexandre-favrot"
     }
   }
 ]

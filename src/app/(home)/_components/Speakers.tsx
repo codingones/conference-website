@@ -22,7 +22,7 @@ export const Speakers = ({ serializedSpeakers }: { serializedSpeakers: string })
           <Markdown className='lead my-4'>{i18n.description}</Markdown>
         </div>
       </div>
-      <div className='row py-5 g-xl-5 text-center'>
+      <div className='row py-5 g-xl-5 text-center justify-content-center'>
         {speakers.map((speaker: Speaker) => (
           <div key={speaker.fullName} className='col-md-3 col-6'>
             <div
