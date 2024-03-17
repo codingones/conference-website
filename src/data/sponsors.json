@@ -13,5 +13,11 @@
     "logo": "images/home/sponsors/balladclub-lyon.svg",
     "name": "Ballad Club",
     "url": "https://ballad.club/"
+  },
+  {
+    "logo": "images/home/sponsors/Ruben-Taieb.webp",
+    "name": "Ruben Taieb",
+    "url": "https://www.linkedin.com/in/rubentaieb/",
+    "displayName": true
   }
 ]

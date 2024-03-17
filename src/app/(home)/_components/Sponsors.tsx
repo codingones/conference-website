@@ -22,15 +22,18 @@ export const Sponsors = ({ serializedSponsors }: { serializedSponsors: string })
       </div>
       <div className='row gap-5 justify-content-center'>
         {sponsors.map((sponsor: Sponsor) => (
-          <Link className='col-auto' key={sponsor.name} href={sponsor.url} target='_blank' rel='noopener noreferrer'>
-            <Image
-              src={sponsor.logo}
-              alt={`Visit ${sponsor.name} website (opens in new tab)`}
-              width={250}
-              height={125}
-              title={sponsor.name}
-            />
-          </Link>
+          <div key={sponsor.name} className='col-auto text-center'>
+            <Link href={sponsor.url} target='_blank' rel='noopener noreferrer'>
+              <Image
+                src={sponsor.logo}
+                alt={`Visit ${sponsor.name} website (opens in new tab)`}
+                width={180}
+                height={180}
+                title={sponsor.name}
+              />
+              {sponsor.displayName && <div className='h5 p-3 bg-dark'>{sponsor.name}</div>}
+            </Link>
+          </div>
         ))}
       </div>
     </div>

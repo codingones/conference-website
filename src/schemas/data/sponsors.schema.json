@@ -5,6 +5,9 @@
     "Sponsor": {
       "additionalProperties": false,
       "properties": {
+        "displayName": {
+          "type": "boolean"
+        },
         "logo": {
           "type": "string"
         },
