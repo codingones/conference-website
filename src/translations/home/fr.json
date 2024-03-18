@@ -64,25 +64,25 @@
     "description": "Le programme se déroule sur une journée de 08h30 à 18h00, des conférences au format 40 minutes s’enchaîneront tout au long de la journée.",
     "callToAction": "Programme bientôt disponible",
     "slots": {
-      "08:30-09:00": {
+      "09:00-09:30": {
         "title": "Accueil",
         "description": "Récupère ton badge pour la journée, puis prend le temps du petit-déjeuner pour discuter un café à la main."
       },
-      "09:40-12:00": {
+      "09:30-12:30": {
         "title": "Première partie",
         "description": "Plénière d’ouverture, suivi de 3 conférences."
       },
-      "12:00-13:30": {
+      "12:20-13:30": {
         "title": "Déjeuner",
         "description": "Des food trucks disponibles sur place pour te permettre de te restaurer."
       },
-      "13:30-17:40": {
+      "13:30-17:10": {
         "title": "Seconde partie",
         "description": "4 conférences sont prévues l’après-midi."
       },
-      "17:50-18:30": {
-        "title": "Fermeture",
-        "description": "Plénière de fermeture suivi d’un apéro avant de se quitter."
+      "17:10-18:00": {
+        "title": "Networking",
+        "description": "Profite d’un moment de networking avant de terminer la journée."
       }
     }
   },
